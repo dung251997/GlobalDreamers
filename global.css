@@ -4866,6 +4866,9 @@ box-shadow: none;
 
 /* BEGIN : POPIN SIGN IN / SIGN UP  ======================= */
 
+div.gd-logo {
+    margin-top: -25px;
+}
 #popinSignIn .gd-logo 
 {
   margin:auto;

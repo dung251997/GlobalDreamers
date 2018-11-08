@@ -98,6 +98,7 @@
                             <div class="verticalAlignItem blockLogo">
                                 <a href="#">
                                     <div class="gd-logo"></div>
+                                    
                                 </a>
                                 </div>
 
