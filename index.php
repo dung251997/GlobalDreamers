@@ -69,10 +69,18 @@
     <div class="gd-slider-arrow-bottom"></div>
   </nav>
 </div>
-
+<div>
+    <div class="left-page">
+        
+    </div>
+    <div class="right-page">
+        
+    </div>
+</div>
 
 <div class="underSlideHomePage">
 
+<!--
   <div class="containerUnderHomePageMobile">
   <h2>Comment ça marche ? </h2>
 
@@ -98,6 +106,8 @@
   <p> <a class="createProjectMobile" href="#">Créer son projet</a></p>
 
   </div>
+-->
+
 
 
 

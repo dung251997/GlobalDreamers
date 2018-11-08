@@ -33,7 +33,6 @@ body
 }
 }
 
-
 @media print, screen and (min-width: 40em) 
 {
     h1, .h1 
@@ -419,7 +418,7 @@ header .containerSubMenu span
 {
   text-transform: none;
   font-weight:normal;
-  line-height: 27px;
+/*  line-height: 27px;*/
 }
 
 
@@ -604,14 +603,14 @@ header .subMenu.subMenu3 ul li a
 
 header .subMenu .containerSubMenu
 {
-    display: flex;
+    display:block;
     max-width: 1200px;
 
 }
 
 
 header .searchInputHeader input.borderEffect ~ .focusBorderEffect{position: absolute; height: 40px; bottom: 0; right: 0; width: 0; transition: 0.4s; }
-header .searchInputHeader input.borderEffect:focus ~ .focusBorderEffect{width: 100%; transition: 0.4s; border: 2px solid #f77835;    border-radius: 8px;}
+header .searchInputHeader input.borderEffect:focus ~ .focusBorderEffect{width: 100%; transition: 0.4s; border: 2px solid #3498db;    border-radius: 8px;}
 header .searchInputHeader input.borderEffect ~ .focusBorderEffect.headerConnected
 {
 transform: translateY(-48%);    
