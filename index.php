@@ -200,9 +200,11 @@
 <div class="gd-arrow-top"></div>
 </div></a>
 
+<!--
 <a href="#"><div class="needHelp">
 <div class="gd-help"></div><div class="textNeedHelp">Besoin d'aide ? </div>
 </div></a>
+-->
 
 <!-- Contenu -->	
 

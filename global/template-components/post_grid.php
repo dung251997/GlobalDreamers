@@ -120,6 +120,7 @@
       </div>
     </div>
 </div>
+<!--
 <h2> Plus que quelques jours pour les soutenir ! </h2>
   <div class="grid-x grid-margin-x align-center small-up-1 medium-up-2 large-up-3">
 
@@ -244,6 +245,7 @@
 
   
     <a class="showAllProject" href="#">Voir tous les projets</a>
+-->
 
 <h2> Les projets par catégorie </h2>
 
