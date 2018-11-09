@@ -22,6 +22,7 @@ STEP
 body {
     font-family: "OpenSans", Helvetica, Arial, sans-serif;
     font-size: 0.875rem;
+
 }
 
 @media print, screen and (max-width: 400px) {
@@ -806,7 +807,7 @@ header.headerMobile .flexBoxHeaderMobile .flexBoxItem.logoProfil {
 /* BEGIN : FOOTER  ======================= */
 
 footer {
-    background: #108B9D;
+    background: #006483;;
 }
 
 footer .financementParticipatifFooter, footer .flexBoxFooter .collumnFooterC5 .titleSection .gd-footer-arrow-bottom {
@@ -1013,10 +1014,6 @@ footer .collumnFooterC4 hr {
 .underSlideHomePage {
     background-color: #F3F3F3;
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .underSlideHomePage .blockCCMPC {
@@ -1408,9 +1405,12 @@ footer .collumnFooterC4 hr {
 /* BEGIN : PARTENAIRES ======================= */
 .contenairPartenaire, .contenairCarousel {
     width: 100%;
-    background-color: #F3F3F3;
+    background-color: #108b9d;
     margin-top: 0px;
     padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+
 }
 
 .owl-nav .owl-prev {
