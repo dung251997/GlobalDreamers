@@ -1084,7 +1084,7 @@ footer .collumnFooterC4 hr {
 .underSlideHomePage .containerUnderHomePageMobile .blockUnderHomePage .gd-circle-orange-splash {
     color: white;
     font-size: 1.875rem;
-    text-align: center;
+    text-align: left;
     line-height: 75px;
     position: absolute;
     top: -15px;
@@ -1094,7 +1094,7 @@ footer .collumnFooterC4 hr {
 .underSlideHomePage .containerUnderHomePage .blockUnderHomePage p, .underSlideHomePage .containerUnderHomePageMobile p {
     margin-top: 20px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     color: #262828;
     font-family: 'Comfortaa', cursive;
 }

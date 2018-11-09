@@ -117,30 +117,66 @@
       <div class="grid-x grid-margin-x align-center blockCCMPC">
    
          
+<!--          <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="-->
+<!--            width: 49%;-->
+<!--            margin-left: 900px;-->
+<!--            padding-bottom: 0px;-->
+<!--            margin-right: 0px;-->
+<!--            height: 250px;">-->
+<!--            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-1"><div class="gd-circle-orange">1</div></div></a>-->
+<!--            <p style="-->
+<!--    width: 300px;">Présentez votre projet impactant</p>-->
+<!--          </div>-->
+<!--          -->
+<!--           <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="margin-top: 150px;height: 200;/* width: 200px; */margin-right: 320px;margin-left: 0px;border-left-width: 200px;margin-bottom: -50;margin-bottom: ‒100;margin-bottom: -50;">-->
+<!--            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-2"><div class="gd-circle-orange">2</div></div></a>-->
+<!--            <p style="width: 250px;">Démarrez le crowdfunding</p>-->
+<!--          </div>-->
+<!---->
+<!--           <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="margin-top: 150;width: 400px;height: 150px;margin-left: 910px;/* margin-right: 15px; */margin-bottom: -150;margin-top: -150;/* padding-top: 0px; *//* padding-bottom: 0px; */margin-top: -200;">-->
+<!--            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-3"><div class="gd-circle-orange">3</div></div></a>-->
+<!--            <p style="width:200px;">Attirez des sponsors</p>-->
+<!--          </div>-->
+<!--              -->
+<!--           <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="margin-top: 150px;margin-right: 300px;border-top-width: 100px;margin-left: 0px;padding-top: 0px;width: 300px;height: 100px;">-->
+<!--            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-4"><div class="gd-circle-orange">4</div></div></a>-->
+<!--            <p style="width: 200px">Réalisez votre rêve</p>          -->
+<!--          </div>-->
           <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="
-    width: 49%;
-    margin-left: 900px;
-    padding-bottom: 0px;
-    margin-right: 0px;
-    height: 250px;">
-            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-1"><div class="gd-circle-orange">1</div></div></a>
-            <p style="
+            width: 49%;
+            margin-left: 900px;
+            padding-bottom: 0px;
+            margin-right: 0px;">
+              <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-1"><div class="gd-circle-orange">1</div></div></a>
+              <p style="
     width: 300px;">Présentez votre projet impactant</p>
           </div>
-          
-           <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="margin-top: 150px;height: 200;/* width: 200px; */margin-right: 320px;margin-left: 0px;border-left-width: 200px;margin-bottom: -50;margin-bottom: ‒100;margin-bottom: -50;">
-            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-2"><div class="gd-circle-orange">2</div></div></a>
-            <p style="width: 250px;">Démarrez le crowdfunding</p>
+          <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="
+            width: 49%;
+            margin-left: 900px;
+            padding-bottom: 0px;
+            margin-right: 0px;">
+              <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-2"><div class="gd-circle-orange">2</div></div></a>
+              <p style="
+    width: 300px;">Démarrez le crowdfunding</p>
           </div>
-
-           <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="margin-top: -150;width: 400px;height: 150px;margin-left: 910px;/* margin-right: 15px; */margin-bottom: -150;margin-top: -150;/* padding-top: 0px; *//* padding-bottom: 0px; */margin-top: -200;">
-            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-3"><div class="gd-circle-orange">3</div></div></a>
-            <p style="width:200px;">Attirez des sponsors</p>
+          <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="
+            width: 49%;
+            margin-left: 900px;
+            padding-bottom: 0px;
+            margin-right: 0px;">
+              <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-3"><div class="gd-circle-orange">3</div></div></a>
+              <p style="
+    width: 300px;">Attirez des sponsors</p>
           </div>
-              
-           <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="margin-top: 150px;margin-right: 300px;border-top-width: 100px;margin-left: 0px;padding-top: 0px;width: 300px;height: 100px;">
-            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-4"><div class="gd-circle-orange">4</div></div></a>
-            <p style="width: 200px">Réalisez votre rêve</p>          
+          <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="
+            width: 49%;
+            margin-left: 900px;
+            padding-bottom: 0px;
+            margin-right: 0px;">
+              <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-4"><div class="gd-circle-orange" style="left: -40px">4</div></div></a>
+              <p style="
+    width: 300px;">Réalisez votre rêve</p>
           </div>
           
       </div>
