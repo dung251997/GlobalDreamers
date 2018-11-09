@@ -186,7 +186,7 @@
 
 </div>
 
-<article class="grid-container full special_bg_white">
+<article class="grid-container">
 	
   <?php require('global/template-components/post_grid.php'); ?>
 
