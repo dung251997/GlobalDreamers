@@ -57,50 +57,55 @@
 </div>
 
 
-
 <header class="headerPC headerNoConnect">
     <div class="containerHeader">
         <div class="top-bar" id="example-animated-menu" data-options="sticky_on: large">
             <div class="top-bar-left">
                 <ul class="dropdown menu" data-dropdown-menu>
                     <div class="flexBoxHeader verticalAlign" style="padding-left: 250px">
-<!--
-                        <div class="verticalAlignItem blockLogo">
+                        <!--
+                                                <div class="verticalAlignItem blockLogo">
 
-                            <li>
+                                                    <li>
 
-                                <a href="#">
-                                    <div class="gd-logo"></div>
-                                </a>
+                                                        <a href="#">
+                                                            <div class="gd-logo"></div>
+                                                        </a>
 
-                            </li>
+                                                    </li>
 
-                        </div>
--->
+                                                </div>
+                        -->
                         <div class="verticalAlignItem blockMenu">
-                            <li class="subMenuLink"><a href="#" class="withArrow lienMenu">Explorer</a>
-
+                            <li class="subMenuLink">
+                                <a href="#" class="withArrow lienMenu">Explorer</a>
                                 <div class="subMenu subMenu1">
                                     <div class="containerSubMenu">
-                                        <a href="#"> Sous menu </a> <a href="#"> Sous menu </a> <a href="#"> Sous menu </a> <a href="#"> Sous menu </a>
+                                        <a href="#">Sous menu</a>
+                                        <a href="#">Sous menu</a>
+                                        <a href="#">Sous menu</a>
+                                        <a href="#">Sous menu</a>
                                     </div>
                                 </div>
                             </li>
-                            <li class="subMenuLink"><a href="#" class="withArrow lienMenu">Soutenir un projet</a>
-
+                            <li class="subMenuLink">
+                                <a href="#" class="withArrow lienMenu">Soutenir un projet</a>
                                 <div class="subMenu subMenu2">
                                     <div class="containerSubMenu">
-                                        <a href="#"> Sous menu 2 </a> <a href="#"> Sous menu 2</a> <a href="#"> Sous menu 2</a> <a href="#"> Sous menu 2</a>
+                                        <a href="#"> Sous menu 2</a>
+                                        <a href="#"> Sous menu 2</a>
+                                        <a href="#"> Sous menu 2</a>
+                                        <a href="#"> Sous menu 2</a>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                            <div class="verticalAlignItem blockLogo">
+                                <!--                            <div class="verticalAlignItem blockLogo">-->
                                 <a href="#">
                                     <div class="gd-logo"></div>
-                                    
+
                                 </a>
-                                </div>
+                                <!--                                </div>-->
 
                             </li>
                             <li><a href="javascript:void(0)" data-open="popinSignIn">Créer un projet</a></li>
@@ -114,21 +119,21 @@
             <div class="top-bar-right">
                 <ul class="dropdown menu" data-dropdown-menu>
 
-<!--
-                    <li class="liInputSearch">
-                        <div class="searchInputHeader">
+                    <!--
+                                        <li class="liInputSearch">
+                                            <div class="searchInputHeader">
 
-                            <input type="search" class="borderEffect">
-                            <span class="focusBorderEffect"></span>
-                            <div class="gd-search"></div>
+                                                <input type="search" class="borderEffect">
+                                                <span class="focusBorderEffect"></span>
+                                                <div class="gd-search"></div>
 
-                        </div>
-                    </li>
--->
+                                            </div>
+                                        </li>
+                    -->
                     <li class="linkConnect">
                         <a href="#">Se connecter</a>
                     </li>
-                    
+
                     <!--
 				<li class="lastLiHeader">
 					<a href="#"><div class="gd-en"></div></a>
