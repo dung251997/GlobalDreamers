@@ -430,7 +430,8 @@ header .flexBoxHeader
 header .flexBoxHeader.verticalAlign 
 {
   display: flex;
-  align-items: center;
+/*  align-items: center;*/
+    padding-left: 250px;
 }
 
 header .flexBoxHeader .verticalAlignItem 
@@ -552,14 +553,19 @@ header .searchInputHeader .gd-search
 header .subMenu
 {
     position:fixed;
-    left:0px;
+    left:10px;
     top:77px;
     display: none;
     width:100%;
-    background-color: #FAFAFA;
+
+/*
+    background-color: #FAFAFA; 
     height:50px;
+
     border-top: 1px solid #edebe8;
     border-bottom: 1px solid #edebe8;
+*/
+
     padding:10px;
     -webkit-box-shadow: 0 3px 10px -6px rgba(0,0,0,0.5);
     box-shadow: 0 3px 10px -6px rgba(0,0,0,0.5);
@@ -604,7 +610,7 @@ header .subMenu.subMenu3 ul li a
 header .subMenu .containerSubMenu
 {
     display:block;
-    max-width: 1200px;
+    max-width: auto;
 
 }
 

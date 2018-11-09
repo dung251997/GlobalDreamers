@@ -63,7 +63,7 @@
         <div class="top-bar" id="example-animated-menu" data-options="sticky_on: large">
             <div class="top-bar-left">
                 <ul class="dropdown menu" data-dropdown-menu>
-                    <div class="flexBoxHeader verticalAlign">
+                    <div class="flexBoxHeader verticalAlign" style="padding-left: 250px">
 <!--
                         <div class="verticalAlignItem blockLogo">
 
@@ -114,6 +114,7 @@
             <div class="top-bar-right">
                 <ul class="dropdown menu" data-dropdown-menu>
 
+<!--
                     <li class="liInputSearch">
                         <div class="searchInputHeader">
 
@@ -123,12 +124,11 @@
 
                         </div>
                     </li>
-
-
+-->
                     <li class="linkConnect">
                         <a href="#">Se connecter</a>
                     </li>
-
+                    
                     <!--
 				<li class="lastLiHeader">
 					<a href="#"><div class="gd-en"></div></a>
