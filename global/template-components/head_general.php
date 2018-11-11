@@ -21,7 +21,8 @@ else
 ?>
     <link rel="stylesheet" href="<?php echo $URL_S3; ?>css/foundation/foundation.min.css" />
     <link rel="stylesheet" href="<?php echo $URL_S3; ?>css/foundation/foundation-datepicker.min.css" />   
-    <link rel="stylesheet" href="global.css" />     
+    <link rel="stylesheet" href="global.css" /> 
+    <link rel="stylesheet" href="animate.css" />     
     <link rel="stylesheet" href="reward.css" />     
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans" rel="stylesheet">
 

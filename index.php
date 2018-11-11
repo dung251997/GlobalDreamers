@@ -50,7 +50,7 @@
                                  src="https://gd-v2.s3.amazonaws.com/storage/travels/432/large-paris-mongolie-a-moto-sur-la-route-des-mondes.jpg"
                                  alt="Space">
                         </div>
-                        <figcaption class="orbit-caption"><p>Paris - Mongolie à moto, une peluche pour un sourire</p>
+                        <figcaption class="orbit-caption animated fadeInUp"><p>Paris - Mongolie à moto, une peluche pour un sourire</p>
                         </figcaption>
 
                     </figure>
@@ -67,7 +67,7 @@
                                  alt="Space">
                         </div>
 
-                        <figcaption class="orbit-caption"><p>Aurora Del Lago - Hôtel éco responsable</p></figcaption>
+                        <figcaption class="orbit-caption animated fadeInUp"><p>Aurora Del Lago - Hôtel éco responsable</p></figcaption>
 
                     </figure>
                 </a>
