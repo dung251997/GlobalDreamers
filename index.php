@@ -38,7 +38,7 @@
             <li class="is-active orbit-slide">
                 <a href="/crowdfunding/voyage/paris-mongolie-a-moto-sur-la-route-des-mondes">
                     <figure class="orbit-figure">
-                        <div class="travelBy">
+                        <div class="travelBy animated fadeInUp">
                             Projet porté par
                             <br>
                             <img src="https://s3-eu-west-1.amazonaws.com/globedreamers/storage/partners/allianz-voyage.jpg"

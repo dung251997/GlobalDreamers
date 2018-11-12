@@ -6325,6 +6325,33 @@ div.gd-logo {
 .contenairCarousel {
     padding-bottom: 100px;
 }
+.commitMent{
+    padding-top: 5%;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flexElement{
+    display: flex;
+    flex-direction: row;
+}
+.commitMent > .flexElement > i{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.flexText > p{
+    margin-bottom: 0 !important;
+}
+.flexText{
+    padding-left: 10px;
+}
+.bold{
+    font-weight: bold;
+    color: #006483;
+}
+.mainColor{
+    color: #006483;
+}
 
 /*<<<<<<< HEAD*/
 /*=======*/

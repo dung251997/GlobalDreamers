@@ -77,8 +77,8 @@
                                             </div>
                     -->
                     <div class="verticalAlignItem blockMenu">
-                        <li class="subMenuLink">
-                            <a href="#" class="withArrow lienMenu">Explorer</a>
+                        <li class="subMenuLink animated fadeInLeft">
+                            <a href="#" class="withArrow lienMenu ">Explorer</a>
                             <div class="subMenu subMenu1">
                                 <div class="containerSubMenu">
                                     <a href="#">Sous menu</a>
@@ -88,8 +88,8 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="subMenuLink">
-                            <a href="#" class="withArrow lienMenu">Soutenir un projet</a>
+                        <li class="subMenuLink animated fadeInLeft">
+                            <a href="#" class="withArrow lienMenu ">Soutenir un projet</a>
                             <div class="subMenu subMenu2">
                                 <div class="containerSubMenu">
                                     <a href="#"> Sous menu 2</a>
@@ -102,13 +102,13 @@
                         <li>
                             <!--                            <div class="verticalAlignItem blockLogo">-->
                             <a href="#">
-                                <div class="gd-logo"></div>
+                                <div class="gd-logo animated fadeInDown"></div>
                             </a>
                             <!--                                </div>-->
                         </li>
-                        <li><a href="javascript:void(0)" data-open="popinSignIn">Créer un projet</a></li>
+                        <li class="animated fadeInRight"><a href="javascript:void(0)" data-open="popinSignIn">Créer un projet</a></li>
 <!--                        <li><a href="javascript:void(0)" data-open="popinSignIn">Nouvelle Page</a></li>-->
-                        <li class="linkConnect">
+                        <li class="linkConnect animated fadeInRight">
                             <a href="#">Se connecter</a>
                         </li>
                     </div>

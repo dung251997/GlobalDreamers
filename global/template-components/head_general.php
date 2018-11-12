@@ -1,7 +1,7 @@
   <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <?php
 $whitelist = array(
     '127.0.0.1',
@@ -21,7 +21,7 @@ else
 ?>
     <link rel="stylesheet" href="<?php echo $URL_S3; ?>css/foundation/foundation.min.css" />
     <link rel="stylesheet" href="<?php echo $URL_S3; ?>css/foundation/foundation-datepicker.min.css" />   
-    <link rel="stylesheet" href="global.css" /> 
+    <link rel="stylesheet" href="global.css?<?php echo time(); ?>" /> 
     <link rel="stylesheet" href="animate.css" />     
     <link rel="stylesheet" href="reward.css" />     
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans" rel="stylesheet">
