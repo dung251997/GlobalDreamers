@@ -95,7 +95,7 @@
 </div>
 
 <div class="content">
-    <div class="underSlideHomePage">
+    <div class="underSlideHomePage" style="background-color: #ecf0f1;">
 
         <!--
           <div class="containerUnderHomePageMobile">
@@ -126,7 +126,7 @@
         -->
 
 
-        <div class="containerUnderHomePage" style="height: 750px;">
+        <div class="containerUnderHomePage" style="height: 750px; background-color: #ecf0f1;">
             <h2 style="margin-left:800px">Comment ça marche ? </h2>
             <div class="grid-x grid-margin-x align-center blockCCMPC">
 
@@ -253,7 +253,7 @@
         </div>
     </div>
 
-    <article class="grid-container">
+    <article class="contentContainer" style="background-color: #bdc3c7;">
         <?php require('global/template-components/post_grid.php'); ?>
     </article>
 

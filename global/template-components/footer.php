@@ -1,28 +1,30 @@
 <footer>
     <div class="containerFooter">
         <div class="flexBoxFooter">
-            <div class="collumnFooterC5">
-                <a href="#">
-                    <div class="gd-logo-white"></div>
-                </a>
-                <div class="textUnderLogoFooter">
-                    <!--
+            <div class="footerCS">
+                <div class="collumnFooterC5">
+                    <a href="#">
+                        <div class="gd-logo-white"></div>
+                    </a>
+                    <div class="textUnderLogoFooter">
+                        <!--
                               <strong>Notre promesse</strong>
                               <p>Créer l'opportunité de voyage pour impacter positivement le monde. </p>
                             </div>
                     -->
-                    <div class="titleSection linkFooter">
-                        <div class="gd-footer-arrow-bottom"></div>
-                    </div>
-                    <ul class="subMenuFooter">
-                        <li><a href="#">Nos valeurs</a></li>
-                        <li><a href="#">Notre équipe</a></li>
-                        <!--          <li><a href="#">Nous rendre visite</a></li>-->
-                        <!--          <li><a href="#">Nous contacter</a></li>-->
-                        <li><a href="#">Equipe presse</a></li>
-                        <li><a href="#">Comment ça marche ? </a></li>
+                        <div class="titleSection linkFooter">
+                            <div class="gd-footer-arrow-bottom"></div>
+                        </div>
+                        <ul class="subMenuFooter">
+                            <li><a href="#">Nos valeurs</a></li>
+                            <li><a href="#">Notre équipe</a></li>
+                            <!--          <li><a href="#">Nous rendre visite</a></li>-->
+                            <!--          <li><a href="#">Nous contacter</a></li>-->
+                            <li><a href="#">Equipe presse</a></li>
+                            <li><a href="#">Comment ça marche ? </a></li>
 
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
 
                 <!--
@@ -40,7 +42,7 @@
                       </div>
                 -->
 
-                <div class="collumnFooterC5" style="margin-left: 250px; margin-top: -180px; width: 200px;">
+                <div class="collumnFooterC5" style="padding-top: 10px;">
                     <div class="titleSection linkFooter">Financer un projet
                         <div class="gd-footer-arrow-bottom"></div>
                     </div>
@@ -67,7 +69,7 @@
                       </div>
                 -->
 
-                <div class="collumnFooterC5" style="margin-left: 470px; margin-top: -155px">
+                <div class="collumnFooterC5" style="padding-top: 10px;">
                     <div class="titleSection linkFooter">Blog Dreamers
                         <div class="gd-footer-arrow-bottom"></div>
                     </div>
@@ -78,6 +80,22 @@
                     </ul>
 
 
+                </div>
+                <div class="collumnFooterC5">
+                    <div class="flexBoxFooterSocialIcons">
+
+                        <a class="gridSocialIcons gd-footer-facebook" href="#" style="width: 80px;"></a>
+
+                        <a class="gridSocialIcons gd-footer-twitter" href="#" style="width: 80px;"></a>
+
+                        <a class="gridSocialIcons gd-footer-youtube" href="#" style="width: 80px;"></a>
+
+                        <a class="gridSocialIcons gd-footer-insta" href="#" style="width: 80px;"></a>
+
+                        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FGlobeDreamersFrance%2F&width=400&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId"
+                            width="400" height="40" style="border:none;overflow:hidden;font-color:#FFF" scrolling="no"
+                            frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
                 </div>
 
             </div>
@@ -100,38 +118,13 @@
                </div>
             -->
 
-            <div class="flexBoxFooter verticalAlign">
-
-                <div class="collumnFooterC4 verticalAlignItem">
-                    <!--       <hr/>-->
-                </div>
-
-                <div class="collumnFooterC4 verticalAlignItem flexBoxFooterSocialIcons"
-                     style="margin-top: -230px;height: 100px;width: 400px;margin-left: 200px;">
-
-                    <a class="gridSocialIcons gd-footer-facebook" href="#" style="width: 80px;"></a>
-
-                    <a class="gridSocialIcons gd-footer-twitter" href="#"></a>
-
-                    <a class="gridSocialIcons gd-footer-youtube" href="#" style="width: 80px;"></a>
-
-                    <a class="gridSocialIcons gd-footer-insta" href="#"></a>
-
-                    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FGlobeDreamersFrance%2F&width=400&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId"
-                            width="400" height="40" style="border:none;overflow:hidden;font-color:#FFF" scrolling="no"
-                            frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-                </div>
-
-                <div class="collumnFooterC4 verticalAlignItem">
-                    <!--       <hr/>-->
-                </div>
 
 
-            </div>
 
             <div class="bottomFooter" style="margin: 0 auto;">
                 <p>GLOBE DREAMERS © Copyright 2018 </p>
-                <a href="#">Mentions légales </a> <a href="#">Conditions générales d'utilisation </a> <a href="#">Confidentialité </a>
+                <a href="#">Mentions légales </a> <a href="#">Conditions générales d'utilisation </a> <a href="#">Confidentialité
+                </a>
                 <a href="#">Politique de cookies </a>
             </div>
 
@@ -142,6 +135,6 @@
             -->
 
         </div>
+    </div>
         <?php require_once('link_fast_access.php'); ?>
 </footer>
-
