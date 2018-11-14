@@ -107,7 +107,7 @@
                             <!--                                </div>-->
                         </li>
                         <li class="animated fadeInRight"><a href="javascript:void(0)" data-open="popinSignIn">Créer un projet</a></li>
-<!--                        <li><a href="javascript:void(0)" data-open="popinSignIn">Nouvelle Page</a></li>-->
+                        <!--                        <li><a href="javascript:void(0)" data-open="popinSignIn">Nouvelle Page</a></li>-->
                         <li class="linkConnect animated fadeInRight">
                             <a href="#">Se connecter</a>
                         </li>
@@ -115,9 +115,9 @@
                 </div>
             </ul>
             <!--            </div>-->
-<!--            <div class="top-bar-right">-->
+            <!--            <div class="top-bar-right">-->
             <!--                <ul class="dropdown menu" data-dropdown-menu>-->
-                    <!--
+            <!--
                                         <li class="liInputSearch">
                                             <div class="searchInputHeader">
 
@@ -128,15 +128,15 @@
                                             </div>
                                         </li>
                     -->
-                    <!--
+            <!--
                 <li class="lastLiHeader">
                     <a href="#"><div class="gd-en"></div></a>
                 </li>
         -->
 
 
-<!--                </ul>-->
-<!--            </div>-->
+            <!--                </ul>-->
+            <!--            </div>-->
         </div>
 
 
