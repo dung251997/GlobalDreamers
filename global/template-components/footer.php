@@ -1,3 +1,5 @@
+<?php require_once('link_fast_access.php'); ?>
+
 <footer>
     <div class="containerFooter">
         <div class="flexBoxFooter">
@@ -136,5 +138,4 @@
 
         </div>
     </div>
-        <?php require_once('link_fast_access.php'); ?>
 </footer>

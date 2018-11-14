@@ -22,7 +22,6 @@ STEP
 body {
     font-family: "OpenSans", Helvetica, Arial, sans-serif;
     font-size: 0.875rem;
-    background-color: #f3f3f3;
 }
 
 @media print,
@@ -852,8 +851,9 @@ header.headerMobile .flexBoxHeaderMobile .flexBoxItem.logoProfil {
 /* BEGIN : FOOTER  ======================= */
 
 footer {
-    background: #006483;
-    ;
+    position: relative;
+    background: #006483 !important;
+    width: 100%;
 }
 
 footer .financementParticipatifFooter,
@@ -862,16 +862,15 @@ footer .flexBoxFooter .collumnFooterC5 .titleSection .gd-footer-arrow-bottom {
 }
 
 footer .containerFooter {
-    position: absolute;
+    /* position: absolute; */
     background-color: #006483;
-    max-width: 1980px;
     box-sizing: border-box;
     /* max-width: 1200px; */
     margin: 0 auto !important;
     padding-top: 300px;
     padding-bottom: 40px;
-    padding-right: .9375rem;
-    padding-left: .9375rem;
+    /* padding-right: .9375rem; */
+    /* padding-left: .9375rem; */
     width: 100%;
     z-index: -9999;
 }
@@ -882,6 +881,7 @@ footer .containerFooter {
         padding-right: 10px;
     }
 }
+
 
 footer .flexBoxFooter {
     padding-left: 10px;
@@ -6609,14 +6609,14 @@ screen and (max-width: 1023px) {
 
 .content {
     position: relative;
-    z-index: -9998;
 }
 
 .footerAbsolute {
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
     margin-top: -200px;
-    /* z-index: -9999; */
+    background-color: #006483 !important;
+    z-index: -9999;
 }
 
 @media print,
