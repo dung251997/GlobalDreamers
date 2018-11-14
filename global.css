@@ -6642,6 +6642,7 @@ screen and (max-width: 1023px) {
     justify-content: space-around;
     flex-wrap: wrap;
     display: inline-block;
+    margin-bottom: -50px;
 }
 
 @media only screen and (max-width: 926px) {

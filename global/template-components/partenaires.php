@@ -111,6 +111,7 @@
         </div>
 
         <div class="commitMent">
+<!--
             <div class="flexElement">
                 <i class="fas fa-truck fa-2x mainColor"></i>
                 <div class="flexText">
@@ -119,6 +120,7 @@
                 </div>
                 
             </div>
+-->
             <div class="flexElement">
                 <i class="fas fa-smile fa-2x mainColor"></i>
                 <div class="flexText">
