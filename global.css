@@ -6614,7 +6614,7 @@ screen and (max-width: 1023px) {
 .footerAbsolute {
     position: absolute;
     width: 100%;
-    margin-top: -200px;
+    margin-top: -100px;
     background-color: #006483 !important;
     z-index: -9999;
 }
