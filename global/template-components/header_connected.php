@@ -122,8 +122,8 @@
                 </div>
             </ul>
             <!--            </div>-->
-            <!--            <div class="top-bar-right">-->
-            <!--                <ul class="dropdown menu" data-dropdown-menu>-->
+                        <div class="top-bar-right">
+                           <ul class="dropdown menu" data-dropdown-menu>
             <!--
                                         <li class="liInputSearch">
                                             <div class="searchInputHeader">
@@ -135,14 +135,15 @@
                                             </div>
                                         </li>
                     -->
-<!--            <li class="subMenuLink linkProfilName" id="subMenuProfil">-->
+<!--         <li class="subMenuLink linkProfilName" id="subMenuProfil">-->
                 <a href="#" class="withArrowProfil profilContainer">
                     <div class="containerImgTag">
                         <div class="tagCount">1</div>
                         <img src="https://gd-v2-staging.s3.amazonaws.com/storage/user-default.png">
                     </div>
-                    <div class="nameProfil">John <br> Doe</div>
+                    <div class="nameProfil">John Doe</div>
                 </a>
+
                 <div class="subMenu subMenu3">
                     <div class="containerSubMenu">
                         <ul>
@@ -155,6 +156,7 @@
 
                     </div>
                 </div>
+
 <!--            </li>-->
 
             <!--
@@ -168,7 +170,8 @@
             <!--                </ul>-->
             <!--            </div>-->
         </div>
-
+            </div>
+        </div>
 
     </div>
 </header>
