@@ -72,6 +72,19 @@
                     </figure>
                 </a>
             </li>
+            <li class="orbit-slide">
+                <a href="/crowdfunding/voyage/hotel-eco-responsable-au-guatemala">
+                    <figure class="orbit-figure">
+                        <div class="imgBackground middle"
+                             style="background-image: url('global/images/slide3.png');">
+                            <img class="orbit-image"
+                                 src="global/images/slide3.png"
+                                 alt="Space">
+                        </div>
+                        <figcaption class="orbit-caption animated fadeInUp"><p>Aurora Del Lago - Hôtel éco responsable</p></figcaption>
+                    </figure>
+                </a>
+            </li>
 
 
         </ul>
@@ -80,6 +93,8 @@
         <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span
                     class="show-for-sr">Current Slide</span></button>
         <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+
 
 
         <div class="gd-slider-arrow-bottom"></div>

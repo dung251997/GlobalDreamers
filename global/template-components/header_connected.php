@@ -99,7 +99,7 @@
                             </a>
                             <!--                                </div>-->
                         </li>
-                        <li class="subMenuLink animated fadeInLeft">
+                        <li class="subMenuLink animated fadeInRight">
                             <a href="#" class="withArrow lienMenu ">Soutenir un projet</a>
                             <div class="subMenu subMenu2">
                                 <div class="containerSubMenu">
