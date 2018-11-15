@@ -235,7 +235,7 @@ select {
 
 .top-bar ul {
     background-color: #fff;
-    text-align: right;
+    /* text-align: right; */
 }
 
 button:hover,
@@ -431,18 +431,18 @@ header .flexBoxHeader .verticalAlignItem {
 /*margin-left: 35px;*/
 /*}*/
 
-header li {
+/* header li {
     padding-right: 12px;
     padding-bottom: 5px;
     float: left;
-}
+} */
 
 header.headerNoConnect li:last-of-type {
     padding-right: 0px !important;
 }
 
 header.headerNoConnect li:last-of-type a {
-    padding-right: 0px !important;
+    /* padding-right: 0px !important; */
 }
 
 header .blockLogo li a {
@@ -665,8 +665,8 @@ header .linkProfilName a {
 }
 
 header .nameProfil {
-    margin-left: 9px;
-    margin-top: 8px;
+    /* margin-left: 9px; */
+    /* margin-top: 8px; */
 }
 
 header .menu .subMenu a {
@@ -6703,6 +6703,15 @@ screen and (max-width: 1023px) {
     flex-wrap: wrap;
     width: 100%;
     position: relative;
+}
+#example-animated-menu > ul > div > div > li{
+    width: 250px;
+    text-align: center;
+}
+.top-bar-right{
+    position: absolute;
+    right: 200px;
+    top: 0%;
 }
 
 /*<<<<<<< HEAD*/
