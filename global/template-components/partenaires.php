@@ -1,5 +1,5 @@
 <!-- Bloc Partenaires-->
-<div class="contenairPartenaire">
+<div class="contenairPartenaire" style="position: relative;">
     <div id="partenaires" class="partenaires partenairesPC grid-container">
         <h2 class="text-center">Les entreprises à la recherche de leur voyage</h2>
         <div class="grid-x grid-margin-x  align-center small-up-1 medium-up-2 large-up-3">
@@ -149,7 +149,7 @@
 
 
         <div class="bottomCircle"></div>
-<!--        <div class="bottomCircleShadow"></div>-->
+       <!-- <div class="bottomCircleShadow"></div> -->
     </div>
     <!-- Carousel partenaires-->
 </div>

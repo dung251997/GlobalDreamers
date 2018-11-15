@@ -143,7 +143,7 @@
       <p> <a class="createProjectMobile" href="#">Créer son projet</a></p>
     </div>
 
-    <div class="containerUnderHomePage">
+    <div class="containerUnderHomePage" style="padding-bottom: 2%; padding-left: 10px; padding-right: 10px;">
       <h2>Comment ça marche ? </h2>
 
       <div class="grid-x grid-margin-x align-center blockCCMPC">
@@ -154,7 +154,7 @@
               <div class="gd-circle-orange">1</div>
             </div>
           </a>
-          <p>Présentez votre projet impactant</p>
+          <p style="text-align: center;">Présentez votre projet impactant</p>
         </div>
 
         <div class="small-126 medium-12 large-auto cell blockUnderHomePage">
@@ -163,7 +163,7 @@
               <div class="gd-circle-orange">2</div>
             </div>
           </a>
-          <p>Démarrez le crowdfunding</p>
+          <p style="text-align: center;">Démarrez le crowdfunding</p>
         </div>
 
         <div class="small-12 medium-12 large-auto cell blockUnderHomePage">
@@ -172,7 +172,7 @@
               <div class="gd-circle-orange">3</div>
             </div>
           </a>
-          <p>Attirez des sponsors</p>
+          <p style="text-align: center;">Attirez des sponsors</p>
         </div>
 
         <div class="small-12 medium-12 large-auto cell blockUnderHomePage">
@@ -181,17 +181,13 @@
               <div class="gd-circle-orange">4</div>
             </div>
           </a>
-          <p>Réalisez votre rêve</p>
+          <p style="text-align: center;">Réalisez votre rêve</p>
         </div>
-
-
       </div>
-
-
     </div>
   </div>
 
-  <article class="grid-container full special_bg_white">
+  <article class="grid-container full">
 
     <?php require('global/template-components/post_grid.php'); ?>
 
@@ -216,7 +212,9 @@
   <!-- Contenu -->
 
   <!-- Footer -->
-  <?php require('global/template-components/footer.php'); ?>
+  <div class="footerAbsolute">
+    <?php require('global/template-components/footer.php'); ?>
+  </div>
   <!-- Footer -->
 
   <!-- Scripts -->
