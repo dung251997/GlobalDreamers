@@ -3847,3 +3847,7 @@ textarea.form-control {
         -webkit-overflow-scrolling: touch;
     }
 }
+
+body > div > div.main-panel > div > div > div > div:nth-child(3) > div > div > form > div:nth-child(1) > div.col-md-9 > div > h4{
+    margin: 15px 0 15px;
+}

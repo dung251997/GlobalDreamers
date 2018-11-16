@@ -69,8 +69,11 @@ body {
   height: 90px;
 }
 .active {
-  background-color: #f44242;
+  /* background-color: #f44242; */
   color: white;
+}
+body > div > div.main-panel > div > div > div.post-card__nav > ul > li > .active{
+  background-color: #2196F3;
 }
 
 .ion {
