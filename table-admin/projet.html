@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Globe Dreamers</title>
+    <title>Globe Dreamers</title>
 
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
 
@@ -16,13 +17,14 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Animation library for notifications   -->
-    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
 
     <!--  Paper Dashboard core CSS    -->
-    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet" />
 
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="assets/css/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/projet.css">
 
     <!--  Fonts and icons     -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
@@ -30,265 +32,308 @@
     <link href="assets/css/themify-icons.css" rel="stylesheet">
 
 </head>
+
 <body>
 
-<div class="wrapper">
-	<div class="sidebar" data-background-color="white" data-active-color="danger">
+    <div class="wrapper">
+        <div class="sidebar" data-background-color="white" data-active-color="danger">
 
-	<!--
+            <!--
 		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
 		Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
 	-->
 
-		<div class="sidebar-wrapper">
-            <div class="logo">
-                <a href="http://globedreamers.com" class="simple-text">
-                    <img src="assets/img/logo.png" style="height: 100px; width: 180px">
-                </a>
-            </div>
-
-            <ul class="nav">
-                <li>
-                    <a href="dashboard.html">
-                        <i class="ti-panel"></i>
-                        <p>Dashboard</p>
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="http://globedreamers.com" class="simple-text">
+                        <img src="assets/img/logo.png" style="height: 100px; width: 180px">
                     </a>
-                </li>
-                <li>
-                    <a href="user.html">
-                        <i class="ti-user"></i>
-                        <p>Utilisateur Profile</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="table.html">
-                        <i class="ti-view-list-alt"></i>
-                        <p>Financier</p>
-                    </a>
-                </li>
-                <li  class="active">
-                    <a href="projet.html">
-                        <i class="ti-control-play"></i>
-                        <p>Projets</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="canas.html">
-                        <i class="ti-pencil-alt2"></i>
-                        <p>Canas de Voyyages</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="maps.html">
-                        <i class="ti-map"></i>
-                        <p>Maps</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="notifications.html">
-                        <i class="ti-bell"></i>
-                        <p>Notifications</p>
-                    </a>
-                </li>
-				<li class="active-pro">
-                    <a href="upgrade.html">
-                        <i class="ti-export"></i>
-                        <p>Devenir Donateur</p>
-                    </a>
-                </li>
-            </ul>
-    	</div>
-    </div>
-
-    <div class="main-panel">
-		<nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle">
-                        <span class="sr-only">Basculer la navigation</span>
-                        <span class="icon-bar bar1"></span>
-                        <span class="icon-bar bar2"></span>
-                        <span class="icon-bar bar3"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Les Projets</a>
                 </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="ti-panel"></i>
-								<p>Stats</p>
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="ti-bell"></i>
-                                    <p class="notification">5</p>
-									<p>Notifications</p>
-									<b class="caret"></b>
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">Notification 1</a></li>
-                                <li><a href="#">Notification 2</a></li>
-                                <li><a href="#">Notification 3</a></li>
-                                <li><a href="#">Notification 4</a></li>
-                                <li><a href="#">Autres notification</a></li>
-                              </ul>
-                        </li>
-						<li>
-                            <a href="#">
-								<i class="ti-settings"></i>
-								<p>Réglages</p>
-                            </a>
-                        </li>
-                    </ul>
 
-                </div>
-            </div>
-        </nav>
-
-
-        <div class="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="header">
-                                <h4 class="title">Paper Dashboard Headings</h4>
-                                <p class="category">Created using <a href="https://www.google.com/fonts/specimen/Muli">Muli</a> Font Family</p>
-                            </div>
-                            <div class="content">
-
-                                <div class="typo-line">
-                                    <h1><p class="category">Header 1</p>Paper Dashboard Heading </h1>
-                                </div>
-
-                                    <div class="typo-line">
-                                    <h2><p class="category">Header 2</p>Paper Dashboard Heading </h2>
-                                </div>
-                                <div class="typo-line">
-                                    <h3><p class="category">Header 3</p>Paper Dashboard Heading </h3>
-                                </div>
-                                <div class="typo-line">
-                                    <h4><p class="category">Header 4</p>Paper Dashboard Heading </h4>
-                                </div>
-                                <div class="typo-line">
-                                    <h5><p class="category">Header 5</p>Paper Dashboard Heading </h5>
-                                </div>
-                                 <div class="typo-line">
-                                    <h6><p class="category">Header 6</p>Paper Dashboard Heading </h6>
-                                </div>
-                                <div class="typo-line">
-                                    <p><span class="category">Paragraph</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-                                </div>
-                                <div class="typo-line">
-                                    <p class="category">Quote</p>
-                                    <blockquote>
-                                     <p>
-                                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
-                                     </p>
-                                     <small>
-                                     Steve Jobs, CEO Apple
-                                     </small>
-                                    </blockquote>
-                                </div>
-
-                                <div class="typo-line">
-                                    <p class="category">Muted Text</p>
-                                    <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
-                                    </p>
-                                </div>
-                                <div class="typo-line">
-                                    <!--
-                                     there are also "text-info", "text-success", "text-warning", "text-danger" clases for the text
-                                     -->
-                                    <p class="category">Coloured Text</p>
-                                    <p class="text-primary">
-                                        Text Primary - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-info">
-                                        Text Info - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-success">
-                                        Text Success - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-warning">
-                                        Text Warning - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-danger">
-                                        Text Danger - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                </div>
-
-                                <div class="typo-line">
-                                    <h2><p class="category">Small Tag</p>Header with small subtitle <br><small>".small" is a tag for the headers</small> </h2>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                <ul class="nav">
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="ti-panel"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="user.html">
+                            <i class="ti-user"></i>
+                            <p>Utilisateur Profile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="table.html">
+                            <i class="ti-view-list-alt"></i>
+                            <p>Financier</p>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="projet.html">
+                            <i class="ti-control-play"></i>
+                            <p>Projets</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="canas.html">
+                            <i class="ti-pencil-alt2"></i>
+                            <p>Canas de Voyyages</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="maps.html">
+                            <i class="ti-map"></i>
+                            <p>Maps</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="notifications.html">
+                            <i class="ti-bell"></i>
+                            <p>Notifications</p>
+                        </a>
+                    </li>
+                    <li class="active-pro">
+                        <a href="upgrade.html">
+                            <i class="ti-export"></i>
+                            <p>Devenir Donateur</p>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <footer class="footer">
-            <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
+        <div class="main-panel">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <span class="sr-only">Basculer la navigation</span>
+                            <span class="icon-bar bar1"></span>
+                            <span class="icon-bar bar2"></span>
+                            <span class="icon-bar bar3"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Les Projets</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="ti-panel"></i>
+                                    <p>Stats</p>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="ti-bell"></i>
+                                    <p class="notification">5</p>
+                                    <p>Notifications</p>
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Notification 1</a></li>
+                                    <li><a href="#">Notification 2</a></li>
+                                    <li><a href="#">Notification 3</a></li>
+                                    <li><a href="#">Notification 4</a></li>
+                                    <li><a href="#">Autres notification</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ti-settings"></i>
+                                    <p>Réglages</p>
+                                </a>
+                            </li>
+                        </ul>
 
-                        <li>
-                            <a href="http://globedreamers.com">
-                                Creer un projet
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/GlobeDreamersFrance/">
-                               Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Licenses
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-				<div class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://globedreamers.com">Globe Dreamer</a>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="content">
+                <div class="container-fluid jumbotron jumbotron-billboard">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <h1>Em gái mưa</h1>
+                                <p>Mưa trôi cả bầu trời nắng, trượt theo những nỗi buồn
+                                    Thấm ướt lệ sầu môi đắng, vì đánh mất hy vọng</p>
+                                <p id="texttoggle1" class="expland">
+                                    Lần đầu gặp nhau dưới mưa, trái tim rộn ràng bởi ánh nhìn
+                                    Tình cảm dầm mưa thấm lâu, em nào ngờ.
+
+                                    Mình hợp nhau đến như vậy, thế nhưng không phải là yêu
+                                    Và em muốn hỏi anh rằng, chúng ta là thế nào
+                                    Rồi lặng người đến vô tận, trách sao được sự tàn nhẫn
+                                    Anh trót vô tình, thương em như là em gái.
+
+                                    Đừng lo lắng về em khi mà em vẫn còn yêu anh
+                                    Càng xa lánh, càng trống vắng tim cứ đau và nhớ lắm
+                                    Đành phải buông hết tất cả thôi, nụ cười mỉm sau bờ môi
+                                    Ấm áp dịu dàng vai anh, em đã bao lần yên giấc.
+
+                                    Nhìn trên cao, khoảng trời yêu mà em lỡ dành cho anh
+                                    Giờ mây đen, quyện thành bão giông tố đang dần kéo đến
+                                    Chồi non háo hức đang đợi mưa, rất giống em ngày xưa
+                                    Mưa trôi để lại ngây thơ, trong giấc mơ buốt lạnh.<br>
+                                </p>
+                                <p><a id="toggle1" class="btn btn-primary btn-lg" href="#" role="button">Read more</a></p>
+                            </div>
+                            <div class="col-md-5"></div>
+                            <div class="col-md-1">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img"></div>
+                </div>
+                <div class="container-fluid jumbotron jumbotron-billboard">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <h1>Em gái mưa</h1>
+                                <p>Mưa trôi cả bầu trời nắng, trượt theo những nỗi buồn
+                                    Thấm ướt lệ sầu môi đắng, vì đánh mất hy vọng</p>
+                                <p id="texttoggle2" class="expland">
+                                    Lần đầu gặp nhau dưới mưa, trái tim rộn ràng bởi ánh nhìn
+                                    Tình cảm dầm mưa thấm lâu, em nào ngờ.
+
+                                    Mình hợp nhau đến như vậy, thế nhưng không phải là yêu
+                                    Và em muốn hỏi anh rằng, chúng ta là thế nào
+                                    Rồi lặng người đến vô tận, trách sao được sự tàn nhẫn
+                                    Anh trót vô tình, thương em như là em gái.
+
+                                    Đừng lo lắng về em khi mà em vẫn còn yêu anh
+                                    Càng xa lánh, càng trống vắng tim cứ đau và nhớ lắm
+                                    Đành phải buông hết tất cả thôi, nụ cười mỉm sau bờ môi
+                                    Ấm áp dịu dàng vai anh, em đã bao lần yên giấc.
+
+                                    Nhìn trên cao, khoảng trời yêu mà em lỡ dành cho anh
+                                    Giờ mây đen, quyện thành bão giông tố đang dần kéo đến
+                                    Chồi non háo hức đang đợi mưa, rất giống em ngày xưa
+                                    Mưa trôi để lại ngây thơ, trong giấc mơ buốt lạnh.<br>
+                                </p>
+                                <p><a id="toggle2" class="btn btn-primary btn-lg" href="#" role="button">Read more</a></p>
+
+                            </div>
+                            <div class="col-md-5"></div>
+                            <div class="col-md-1">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img"></div>
+                </div>
+                <div class="container-fluid jumbotron jumbotron-billboard">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <h1>Em gái mưa</h1>
+                                <p>Mưa trôi cả bầu trời nắng, trượt theo những nỗi buồn
+                                    Thấm ướt lệ sầu môi đắng, vì đánh mất hy vọng</p>
+                                <p id="texttoggle3" class="expland">
+                                    Lần đầu gặp nhau dưới mưa, trái tim rộn ràng bởi ánh nhìn
+                                    Tình cảm dầm mưa thấm lâu, em nào ngờ.
+
+                                    Mình hợp nhau đến như vậy, thế nhưng không phải là yêu
+                                    Và em muốn hỏi anh rằng, chúng ta là thế nào
+                                    Rồi lặng người đến vô tận, trách sao được sự tàn nhẫn
+                                    Anh trót vô tình, thương em như là em gái.
+
+                                    Đừng lo lắng về em khi mà em vẫn còn yêu anh
+                                    Càng xa lánh, càng trống vắng tim cứ đau và nhớ lắm
+                                    Đành phải buông hết tất cả thôi, nụ cười mỉm sau bờ môi
+                                    Ấm áp dịu dàng vai anh, em đã bao lần yên giấc.
+
+                                    Nhìn trên cao, khoảng trời yêu mà em lỡ dành cho anh
+                                    Giờ mây đen, quyện thành bão giông tố đang dần kéo đến
+                                    Chồi non háo hức đang đợi mưa, rất giống em ngày xưa
+                                    Mưa trôi để lại ngây thơ, trong giấc mơ buốt lạnh.<br>
+                                </p>
+                                <p><a id="toggle3" class="btn btn-primary btn-lg" href="#" role="button">Read more</a></p>
+
+                            </div>
+                            <div class="col-md-5"></div>
+                            <div class="col-md-1">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img"></div>
                 </div>
             </div>
-        </footer>
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <nav class="pull-left">
+                        <ul>
+
+                            <li>
+                                <a href="http://globedreamers.com">
+                                    Creer un projet
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/GlobeDreamersFrance/">
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Licenses
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="copyright pull-right">
+                        &copy; <script>
+                            document.write(new Date().getFullYear())
+                        </script>, made with <i class="fa fa-heart heart"></i> by <a href="http://globedreamers.com">Globe
+                            Dreamer</a>
+                    </div>
+                </div>
+            </footer>
 
 
+        </div>
     </div>
-</div>
 
 
 </body>
 
-    <!--   Core JS Files   -->
-    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<!--   Core JS Files   -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 
-	<!--  Checkbox, Radio & Switch Plugins -->
-	<script src="assets/js/bootstrap-checkbox-radio.js"></script>
+<!--  Checkbox, Radio & Switch Plugins -->
+<script src="assets/js/bootstrap-checkbox-radio.js"></script>
 
-	<!--  Charts Plugin -->
-	<script src="assets/js/chartist.min.js"></script>
+<!--  Charts Plugin -->
+<script src="assets/js/chartist.min.js"></script>
 
-    <!--  Notifications Plugin    -->
-    <script src="assets/js/bootstrap-notify.js"></script>
+<!--  Notifications Plugin    -->
+<script src="assets/js/bootstrap-notify.js"></script>
 
-    <!--  Google Maps Plugin    -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
-    <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
-	<script src="assets/js/paper-dashboard.js"></script>
+<!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+<script src="assets/js/paper-dashboard.js"></script>
 
-	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
-	<script src="assets/js/demo.js"></script>
+<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+<script src="assets/js/demo.js"></script>
+
+<script src="assets/js/projet.js"></script>
+
 
 </html>
