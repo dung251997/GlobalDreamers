@@ -1,13 +1,11 @@
 $(document).ready(function () {
   var btns = document.querySelectorAll(".btn");
   var texts = document.querySelectorAll(".expland");
-  var tempScrollTop = $(window).scrollTop();
-
+  var tempScrollTop;
   btns.forEach(function (el) {
     el.addEventListener("click", function () {
+      var tempScrollTop = $(window).scrollTop();
       var elem = el.text;
-      var $target = $('html,body');
-      $target.animate({scrollTop: $target.height()}, tempScrollTop);
       if (elem == "Read more") {
         //Stuff to do when btn is in the read more state
         el.innerHTML = 'Read less';
@@ -27,7 +25,7 @@ $(document).ready(function () {
         });
         // $(texts[0].id).slideUp();
       }
-      $target.animate({scrollTop: $target.height()}, tempScrollTop);
     });
+    $(window).scrollTop(tempScrollTop);
   });
 });

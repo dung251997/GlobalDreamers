@@ -1,16 +1,23 @@
 .content {
     border-radius: 30px;
 }
-
+.btn-primary{
+    color: white !important;
+}
 /* Rounded sliders */
 body>div>div.main-panel>div>div>div.row {
     position: relative;
     z-index: 2;
 }
 
+.backgroundText{
+    background-color: rgba(120, 144, 156, 0.55);
+    color: #fff !important;
+    border-radius: 34px;
+}
+
 .jumbotron-billboard>.img {
     margin-bottom: 0px;
-    opacity: 0.2;
     color: #fff;
 /*    background: #000 url("https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/05/105312566-1530803740357gettyimages-815863456.1910x1000.jpeg") top center no-repeat;*/
     width: 100%;
@@ -28,6 +35,7 @@ body>div>div.main-panel>div>div>div.row {
 .jumbotron h2 {
     margin-top: 0;
 }
+
 
 .jumbotron {
     position: relative;
