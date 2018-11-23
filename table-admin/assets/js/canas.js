@@ -1,10 +1,20 @@
 // DISPLAY IMAGE FILENAME
-$('#image').on('change',function(){
-    var fileName = $(this).val();
-    var path = "C:\\fakepath\\" + fileName;
-    var file = path.replace(/^.*\\/, "");
-    $(this).next('.custom-file-label').html(file);
-});
+$(".browse-button input:file").change(function (){
+    $("input[name='attachment']").each(function() {
+      var fileName = $(this).val().split('/').pop().split('\\').pop();
+      $(".filename").val(fileName);
+      $(".browse-button-text").html('<i class="fa fa-refresh"></i> Change');
+      $(".clear-button").show();
+    });
+  });
+  
+  //actions happening when the button is clicked
+  $('.clear-button').click(function(){
+      $('.filename').val("");
+      $('.clear-button').hide();
+      $('.browse-button input:file').val("");
+      $(".browse-button-text").html('<i class="fa fa-folder-open"></i> Browse'); 
+  }); 
 
 $.expr[":"].contains = $.expr.createPseudo(function(arg) {
     return function( elem ) {
@@ -32,9 +42,6 @@ $(document).ready(function() {
     $('#search-field').keypress(function(event) {
         if (event.which == '13') {
             if (($(this).val() != '') && ($(".tags .addedTag:contains('" + $(this).val() + "') ").length == 0 ))  {
-
-
-
                     $('<li class="addedTag">' + $(this).val() + '<span class="tagRemove" onclick="$(this).parent().remove();">x</span><input type="hidden" value="' + $(this).val() + '" name="tags[]"></li>').insertBefore('.tags .tagAdd');
                     $(this).val('');
 
