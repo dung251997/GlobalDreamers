@@ -25,6 +25,9 @@
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="assets/css/demo.css" rel="stylesheet" />
 
+    <link href="assets/css/user.css" rel="stylesheet" />
+
+
     <!--  Fonts and icons     -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
@@ -165,7 +168,36 @@
                                 </div>
                                 <div class="content">
                                     <div class="author">
-                                        <img class="avatar border-white" src="assets/img/faces/face-2.png" alt="..." />
+                                        <img class="avatar border-white" id="avatar" src="assets/img/faces/face-2.png" alt="..." />
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label>Avatar</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-btn">
+                                                            <div class="btn btn-default btn-light browse-button">
+                                                                <span class="browse-button-text">
+                                                                    <i class="fa fa-folder-open"></i> Chercher</span>
+                                                                <input id="avatarField" type="file" accept=".jpg,.png" name="attachment" />
+                                                            </div>
+                                                            <button type="button" class="btn btn-default btn-light clear-button"
+                                                                style="display:none;">
+                                                                <span class="fa fa-times"></span> Supprimer
+                                                            </button>
+                                                        </span>
+                                                        <input type="text" class="form-control filename" disabled="disabled"
+                                                            placeholder="Please click on browse button and select a image file">
+                                                        <span class="input-group-btn">
+                                                            <button class="btn btn-primary btn-light upload-button avatar-button"
+                                                                type="button">
+                                                                <i class="fa fa-upload"></i>
+                                                                Mise en ligne
+                                                            </button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <h4 class="title">Globe Dreamers<br />
                                             <a href="#"><small>@globedreamersFrnace</small></a>
                                         </h4>
@@ -375,6 +407,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
@@ -475,7 +508,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                           <div class="col-md-12">
+                                            <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label>RIB Banque</label>
                                                     <input type="text" class="form-control border-input" placeholder="RIB Bancaire"
@@ -494,7 +527,7 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label>Expiration  (MM/YY)</label>
+                                                    <label>Expiration (MM/YY)</label>
                                                     <input type="text" class="form-control border-input" placeholder="(MM/YY)"
                                                         value="">
                                                 </div>
@@ -584,6 +617,8 @@
 
 <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 <script src="assets/js/demo.js"></script>
+<script src="assets/js/user.js"></script>
+
 
 <!-- Dropin -->
 
