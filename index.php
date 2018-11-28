@@ -177,8 +177,9 @@
             padding-bottom: 0px;
             margin-right: 0px;">
                         <a href="#" class="hoverSplashHomePage">
+                        <div class="gd-circle-orange-fix">1</div>
+
                             <div class="gd-homepage-1">
-                                <div class="gd-circle-orange">1</div>
                             </div>
                         </a>
                         <p style="
@@ -190,8 +191,9 @@
             padding-bottom: 0px;
             margin-right: 0px;">
                         <a href="#" class="hoverSplashHomePage">
+                        <div class="gd-circle-orange-fix">2</div>
+
                             <div class="gd-homepage-2">
-                                <div class="gd-circle-orange">2</div>
                             </div>
                         </a>
                         <p style="
@@ -203,8 +205,9 @@
             padding-bottom: 0px;
             margin-right: 0px;">
                         <a href="#" class="hoverSplashHomePage">
+                        <div class="gd-circle-orange-fix">3</div>
+
                             <div class="gd-homepage-3">
-                                <div class="gd-circle-orange">3</div>
                             </div>
                         </a>
                         <p style="
@@ -216,8 +219,9 @@
             padding-bottom: 0px;
             margin-right: 0px;">
                         <a href="#" class="hoverSplashHomePage">
+                        <div class="gd-circle-orange-fix">4</div>
+
                             <div class="gd-homepage-4">
-                                <div class="gd-circle-orange" style="left: -40px">4</div>
                             </div>
                         </a>
                         <p style="

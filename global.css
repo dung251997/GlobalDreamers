@@ -1120,6 +1120,11 @@ footer .collumnFooterC4 hr {
     margin-top: 20px;
 }
 
+.gd-circle-orange{
+    background-position: center center;
+    background-size: cover;
+}
+
 .underSlideHomePage .containerUnderHomePageMobile .blockUnderHomePage .gd-circle-orange-splash {
     background-repeat: no-repeat;
     width: 73px;
@@ -1505,8 +1510,11 @@ footer .collumnFooterC4 hr {
     padding-top: 10px;
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.25), -12px 0 8px -4px rgba(0, 0, 0,  0.22);
 
+}
+.contenairCarousel{
+    box-shadow: unset !important;
 }
 
 .owl-nav .owl-prev {
@@ -6712,6 +6720,20 @@ screen and (max-width: 1023px) {
     position: absolute;
     right: 200px;
     top: 0%;
+}
+.gd-circle-orange-fix{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 29px;
+    margin-left: 110px;
+    width: 29px;
+    height: 29px;
+    background-color: #F77835;
+    border-radius: 50%;
+    border-bottom: 0;
 }
 
 /*<<<<<<< HEAD*/
