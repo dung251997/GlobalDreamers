@@ -342,11 +342,9 @@ header {
 }
 
 header .top-bar {
-
     max-width: 1200px;
     margin: auto;
     background-color: white;
-    padding-top: 5px;
     padding-right: .9375rem;
     padding-left: .9375rem;
 }
@@ -417,8 +415,14 @@ header .flexBoxHeader {
 
 header .flexBoxHeader.verticalAlign {
     display: flex;
-    /*  align-items: center;*/
+    /* align-items: center; */
     /*padding-left: 250px;*/
+}
+header .flexItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .flexBoxHeader .verticalAlignItem {
@@ -6581,7 +6585,7 @@ screen and (max-width: 1023px) {
 
 .containerUnderHomePage {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    /* background-color: white; */
+    background-color: white;
     padding-top: 50px;
 }
 
@@ -6714,7 +6718,7 @@ screen and (max-width: 1023px) {
     position: relative;
 }
 #example-animated-menu > ul > div > div > li{
-    width: 250px;
+    width: 200px;
     text-align: center;
 }
 .top-bar-right{

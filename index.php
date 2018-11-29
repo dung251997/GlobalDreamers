@@ -143,7 +143,7 @@
         -->
 
 
-            <div class="containerUnderHomePage" style="height: 750px; background-color: #ecf0f1;">
+            <div class="containerUnderHomePage" style="height: 750px;">
                 <h2 style="margin-left:800px">Comment ça marche ? </h2>
                 <div class="grid-x grid-margin-x align-center blockCCMPC">
 

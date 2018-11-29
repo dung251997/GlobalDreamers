@@ -62,7 +62,7 @@
         <div class="top-bar" id="example-animated-menu" data-options="sticky_on: large">
             <!--            <div class="top-bar-left">-->
             <ul class="dropDown menu centering" data-dropdown-menu>
-                <div class="flexBoxHeader verticalAlign" style="padding-left: 250px">
+                <div class="flexBoxHeader verticalAlign">
                     <!--
                                             <div class="verticalAlignItem blockLogo">
 
@@ -89,7 +89,7 @@
                             </div>
                         </li>
                         <li class="subMenuLink animated fadeInLeft">
-                            <a href="#" class="withArrow lienMenu " style="margin-top:-6px;">Soutenir un projet</a>
+                            <a href="#" class="withArrow lienMenu">Soutenir un projet</a>
                             <div class="subMenu subMenu2">
                                 <div class="containerSubMenu">
                                     <a href="#"> Sous menu 2</a>
