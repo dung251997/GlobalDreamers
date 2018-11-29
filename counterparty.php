@@ -19,9 +19,9 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full special_bg_white ">
+<article class="grid-container full special_bg_white">
 
-  <div class="containerCounterParty">
+  <div class="containerCounterParty" style="padding-top: 100px;">
 
     <h2> Vous avez décidé de contribuer  au projet de martin</h2>
 

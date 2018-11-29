@@ -20,9 +20,7 @@
 
 
 <article class="grid-container full special_bg_white pageSign">
-  <div class="container backgroundWhite">
-
-    <div class="gd-logo"></div>
+  <div class="container backgroundWhite" style="padding-top: 10px;">
 
     <h1 class="title">Financez votre voyage de rêve </h1>
 
