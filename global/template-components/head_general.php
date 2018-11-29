@@ -932,7 +932,10 @@ else
         {   
             position: absolute;
             top:83%;
-            margin-left: -45%;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
             content:'';
             width: 20px;
             height: 11px;
@@ -964,7 +967,10 @@ else
             position: absolute;
             top:82%;
             right:30%;
-            margin-left: 9px;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
             content:'';
             width: 20px;
             height: 11px;

@@ -6,6 +6,7 @@
 <head>
     <title>Accueil</title>
     <?php require('global/template-components/head_general.php'); ?>
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 </head>
 <!-- Head -->
 

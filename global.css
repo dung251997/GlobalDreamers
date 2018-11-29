@@ -665,8 +665,9 @@ header .linkProfilName a {
 }
 
 header .nameProfil {
-    /* margin-left: 9px; */
-    /* margin-top: 8px; */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
 }
 
 header .menu .subMenu a {
@@ -1510,7 +1511,7 @@ footer .collumnFooterC4 hr {
     padding-top: 10px;
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.25), -12px 0 8px -4px rgba(0, 0, 0,  0.22);
+    box-shadow: 6px 0 15px -4px rgba(0, 0, 0, 0.25), -7px 0 15px -4px rgba(0, 0, 0,  0.22);
 
 }
 .contenairCarousel{
@@ -6735,6 +6736,10 @@ screen and (max-width: 1023px) {
     border-radius: 50%;
     border-bottom: 0;
 }
+.gd-logo{
+    max-width: 164px;
+}
+
 
 /*<<<<<<< HEAD*/
 /*=======*/

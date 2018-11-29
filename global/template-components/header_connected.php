@@ -144,7 +144,7 @@
     <div class="top-bar-right">
         <ul class="dropDown menu" data-dropdown-menu>
             <li class="subMenuLink linkProfilName" id="subMenuProfil">
-                <a href="#" class="withArrow profilContainer">
+                <a href="#" class="withArrowProfil profilContainer">
                     <div class="containerImgTag">
                         <div class="tagCount">1</div>
                         <img src="https://gd-v2-staging.s3.amazonaws.com/storage/user-default.png">
