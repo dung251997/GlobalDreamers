@@ -4,9 +4,7 @@
     <div class="containerFooter">
         <div class="flexBoxFooter">
             <div class="footerCS">
-                <div class="collumnFooterC5" style="
-    margin-top: -150px;
-">
+                <div class="collumnFooterC5"">
                     <a href="#">
                         <div class="gd-logo-white"></div>
                     </a>
@@ -46,7 +44,7 @@
                       </div>
                 -->
 
-                <div class="collumnFooterC5" style="margin-top: -100px">
+                <div class="collumnFooterC5">
                     <div class="titleSection linkFooter">Financer un projet
                         <div class="gd-footer-arrow-bottom"></div>
                     </div>
@@ -73,7 +71,7 @@
                       </div>
                 -->
 
-                <div class="collumnFooterC5" style="margin-top: -100px">
+                <div class="collumnFooterC5">
                     <div class="titleSection linkFooter">Blog Dreamers
                         <div class="gd-footer-arrow-bottom"></div>
                     </div>
@@ -86,7 +84,7 @@
 
                 </div>
                 <div class="collumnFooterC5">
-                    <div class="flexBoxFooterSocialIcons" style="margin-top: -100px;">
+                    <div class="flexBoxFooterSocialIcons">
 
                         <a class="gridSocialIcons gd-footer-facebook" href="#" style="width: 80px;"></a>
 
