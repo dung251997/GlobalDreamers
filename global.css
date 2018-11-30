@@ -779,7 +779,6 @@ header img {
 }
 
 header .containerImgTag {
-    position: relative;
     width: 50px;
     margin: auto;
 }
@@ -6743,6 +6742,8 @@ screen and (max-width: 1023px) {
 .gd-logo{
     max-width: 164px;
 }
+
+
 
 
 /*<<<<<<< HEAD*/

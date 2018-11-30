@@ -60,26 +60,8 @@
 <header class="headerPC headerNoConnect">
     <div class="containerHeader">
         <div class="top-bar" id="example-animated-menu" data-options="sticky_on: large">
-            <!--            <div class="top-bar-left">-->
             <ul class="dropDown menu centering" data-dropdown-menu>
                 <div class="flexBoxHeader verticalAlign">
-
-
-                    <!--
-                                            <div class="verticalAlignItem blockLogo">
-
-                                                <li>
-
-                                                    <a href="#">
-                                                        <div class="gd-logo"></div>
-                                                    </a>
-
-                                                </li>
-
-                                            </div>
--->
-
-
                     <div class="verticalAlignItem blockMenu">
                         <li class="subMenuLink animated fadeInLeft">
                             <a href="#" class="withArrow lienMenu ">Explorer</a>
@@ -93,11 +75,9 @@
                             </div>
                         </li>
                         <li>
-                            <!--                            <div class="verticalAlignItem blockLogo">-->
                             <a href="#">
                                 <div class="gd-logo animated fadeInDown"></div>
                             </a>
-                            <!--                                </div>-->
                         </li>
                         <li class="subMenuLink animated fadeInRight">
                             <a href="#" class="withArrow lienMenu ">Soutenir un projet</a>
@@ -110,56 +90,31 @@
                                 </div>
                             </div>
                         </li>
-
-
-                        <!--                        <li class="animated fadeInRight"><a href="javascript:void(0)" data-open="popinSignIn">Créer un projet</a></li>-->
-                        <!--                        <li><a href="javascript:void(0)" data-open="popinSignIn">Nouvelle Page</a></li>-->
-                        <!--
-                        <li class="linkConnect animated fadeInRight">
-                            <a href="#">Se connecter</a>
-                        </li>
--->
-                        <!--
-                                        <li class="liInputSearch">
-                                            <div class="searchInputHeader">
-
-                                                <input type="search" class="borderEffect">
-                                                <span class="focusBorderEffect"></span>
-                                                <div class="gd-search"></div>
-
-                                            </div>
-                                        </li>
-                    -->
-                        <!--
-               
-                <li class="lastLiHeader">
-                    <a href="#"><div class="gd-en"></div></a>
-                </li>
-        -->
                     </div>
                 </div>
             </ul>
         </div>
-    </div>
-    <div class="top-bar-right">
-        <ul class="dropDown menu" data-dropdown-menu>
-            <li class="subMenuLink linkProfilName" id="subMenuProfil">
-                <a href="#" class="withArrowProfil profilContainer">
-                    <div class="containerImgTag">
-                        <div class="tagCount">1</div>
-                        <img src="https://gd-v2-staging.s3.amazonaws.com/storage/user-default.png">
+        <div class="top-bar-right">
+            <ul class="dropDown menu" data-dropdown-menu>
+                <li class="subMenuLink linkProfilName" id="subMenuProfil">
+                    <a href="#" class="withArrowProfil profilContainer">
+                        <div class="containerImgTag">
+                            <div class="tagCount">1</div>
+                            <img src="https://gd-v2-staging.s3.amazonaws.com/storage/user-default.png">
+                        </div>
+                        <div class="nameProfil"> John Doe</div>
+                    </a>
+                    <div class="subMenu subMenu2">
+                        <div class="containerSubMenu">
+                            <a href="#" class="linkSubProfil"> Messagerie </a>
+                            <a href="#" class="linkSubProfil"> Mes voyages </a>
+                            <a href="#" class="linkSubProfil"> Mes contributions </a>
+                            <a href="#" class="linkSubProfil"> ... </a>
+                        </div>
                     </div>
-                    <div class="nameProfil"> John Doe</div>
-                </a>
-                <div class="subMenu subMenu2">
-                    <div class="containerSubMenu">
-                        <a href="#" class="linkSubProfil"> Messagerie </a>
-                        <a href="#" class="linkSubProfil"> Mes voyages </a>
-                        <a href="#" class="linkSubProfil"> Mes contributions </a>
-                        <a href="#" class="linkSubProfil"> ... </a>
-                    </div>
-                </div>
-            </li>
-        </ul>
+                </li>
+            </ul>
+        </div>
     </div>
+
 </header>
