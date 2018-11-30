@@ -97,7 +97,7 @@
     </div>
     <div class="top-bar-right">
         <ul class="dropDown menu" data-dropdown-menu>
-            <li class="subMenuLink linkProfilName1" id="subMenuProfil1">
+            <li class="subMenuLink linkProfilName" id="subMenuProfil1">
                 <a href="#" class="withArrowProfil profilContainer">
 
                     <div class="containerImgTag">
@@ -113,6 +113,7 @@
                         <a href="#" class="linkSubProfil"> Mes contributions </a>
                         <a href="#" class="linkSubProfil"> Se deconnect </a>
 
+<!--
         <div class="top-bar-right">
             <ul class="dropDown menu" data-dropdown-menu>
                 <li class="subMenuLink linkProfilName" id="subMenuProfil">
@@ -130,11 +131,13 @@
                             <a href="#" class="linkSubProfil"> Mes contributions </a>
                             <a href="#" class="linkSubProfil"> ... </a>
                         </div>
->>>>>>> 6dbb6d36e6e664de0ca24e0d21668e4239480978
+
                     </div>
                 </li>
             </ul>
         </div>
+-->
     </div>
-
+                </div>
+            </li>
 </header>

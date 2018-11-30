@@ -289,7 +289,7 @@ $(document).ready(function()
 	  	else
 	  	{
    		 	var position = $( this ).offset();
-   		 	$( this ).children( "div" ).css("padding-right", position.right);
+//   		 	$( this ).children( "div" ).css("padding-right", position.right);
 //	     	$( this ).children( "a:first-child" ).toggleClass('withArrowBottom', 'withArrow');		
 	  	}
 
@@ -308,7 +308,7 @@ $(document).ready(function()
   	  			$( element ).children( "div" ).hide();  	  	
 			   	$( element ).children("a:first-child").removeClass('activeMenuSubMenu'); 	
 		   	   	$( "#subMenuProfil .profilContainer" ).removeClass('withArrowProfilBottom');	
-		   	   	$( "#subMenuProfil .profilContainer" ).addClass('withArrowProfil');	
+		   	   	$( "#subMenuProfil .profilContainer" ).addClass('withArrowProfil1');	
   	  		}
   	  		else
   	  		{
