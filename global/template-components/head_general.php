@@ -22,8 +22,8 @@ else
     <link rel="stylesheet" href="<?php echo $URL_S3; ?>css/foundation/foundation.min.css" />
     <link rel="stylesheet" href="<?php echo $URL_S3; ?>css/foundation/foundation-datepicker.min.css" />   
     <link rel="stylesheet" href="global.css?<?php echo time(); ?>" /> 
-    <link rel="stylesheet" href="animate.css" />     
-    <link rel="stylesheet" href="reward.css" />     
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="reward.css" />
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans" rel="stylesheet">
 
 
@@ -953,7 +953,7 @@ else
         {   
             position: absolute;
             top:42%;
-            right:-10px;
+            right:-25px;
             margin-left: 9px;
             content:'';
             width: 20px;
@@ -965,8 +965,7 @@ else
         .menu a.withArrowProfilBottom:after
         {   
             position: absolute;
-            top:82%;
-            right:30%;
+            top: 100%;
             margin-left: auto;
             margin-right: auto;
             left: 0;
@@ -976,6 +975,11 @@ else
             height: 11px;
             background-repeat: no-repeat;
             background-position: -430px -195px;
+        }
+        #subMenuProfil > a {
+            margin: unset !important;
+            padding: unset !important;
+
         }
 
 
