@@ -78,81 +78,81 @@ $(document).ready(function()
 	
 
 
-//	  $( ".subMenuLink" ).hover(function() 
-//	  {
-//
-//	  	if($(".subMenu3").css('display') != 'none' )
-//	  	{
-//	  		$(".subMenu3").hide();
-//	  	}
-//
-//	  	var idLink = $(this).attr('id');
-//
-//
-//		if(idLink == "subMenuProfil")
-//	  	{
-//		   $( "#subMenuProfil .profilContainer" ).toggleClass('withArrowProfilBottom', 'withArrowProfil');	
-//
-//	  	   var widthMenu = $("#subMenuProfil").width();
-//	  	   var widthMenu2 = widthMenu;
-//	  	   if(widthMenu < 200)
-//	  	   {
-//	  	   	widthMenu = 200;
-//	  	   }
-//   		 	$( this ).children( "div" ).css("width", widthMenu);
-//   		 	var position = $("#subMenuProfil").offset();
-//   		 	var diff = 200-widthMenu2;
-//		 	var leftPosition = position.left-10;
-//   		 	var widthDocument = $(document).width();
-//
-//   		 	var calcul = widthMenu + position.right;
-//
-//   		 	if(calcul > widthDocument)
-//   		 	{
-//   		 		var diff = calcul-widthDocument;
-//   		 		var leftPosition = leftPosition-diff+10;
-//
-//   		 	}
-//
-//   		 	$( this ).children( "div" ).css("right", rightPosition);
-//	  	}
-//	  	else
-//	  	{
-//   		 	var position = $( this ).offset();
-//   		 	$( this ).children( "div" ).css("padding-right", position.right);
-//	     	$( this ).children( "a:first-child" ).toggleClass('withArrowBottom', 'withArrow');		
-//	  	}
-//
-//   		 $( this ).children( "div" ).show();
-//   		 $( this ).children("a:first-child").addClass('activeMenuSubMenu');
-//
-//  	  }, function() 
-//  	  {
-//  	  	var idSubMenu = this.id;
-//  	  	var classNextElement = $(':hover').last().attr('class');
-//  
-//  	  
-//  	  		var element = this;
-//  	  		if(idSubMenu == "subMenuProfil")
-//  	  		{
-//  	  			$( element ).children( "div" ).hide();  	  	
-//			   	$( element ).children("a:first-child").removeClass('activeMenuSubMenu'); 	
-////		   	   	$( "#subMenuProfil .profilContainer" ).removeClass('withArrowProfilBottom');	
-////		   	   	$( "#subMenuProfil .profilContainer" ).addClass('withArrowProfil');	
-////  	  		}
-//  	  		else
-//  	  		{
-//	  	  		$( this ).children( "div" ).hide();
-//		   		$( this ).children("a:first-child").removeClass('activeMenuSubMenu'); 
-//		   	   	$( ".subMenuLink .lienMenu" ).removeClass('withArrowBottom');	
-//		   	   	$( ".subMenuLink .lienMenu" ).addClass('withArrow');	
+	  $( ".subMenuLink" ).hover(function() 
+	  {
+
+	  	if($(".subMenu3").css('display') != 'none' )
+	  	{
+	  		$(".subMenu3").hide();
+	  	}
+
+	  	var idLink = $(this).attr('id');
+
+
+		if(idLink == "subMenuProfil")
+	  	{
+		   $( "#subMenuProfil .profilContainer" ).toggleClass('withArrowProfilBottom', 'withArrowProfil');	
+
+	  	   var widthMenu = $("#subMenuProfil").width();
+	  	   var widthMenu2 = widthMenu;
+	  	   if(widthMenu < 200)
+	  	   {
+	  	   	widthMenu = 200;
+	  	   }
+   		 	$( this ).children( "div" ).css("width", widthMenu);
+   		 	var position = $("#subMenuProfil").offset();
+   		 	var diff = 200-widthMenu2;
+		 	var leftPosition = position.left-10;
+   		 	var widthDocument = $(document).width();
+
+   		 	var calcul = widthMenu + position.right;
+
+   		 	if(calcul > widthDocument)
+   		 	{
+   		 		var diff = calcul-widthDocument;
+   		 		var leftPosition = leftPosition-diff+10;
+
+   		 	}
+
+   		 	$( this ).children( "div" ).css("right", rightPosition);
+	  	}
+	  	else
+	  	{
+   		 	var position = $( this ).offset();
+   		 	$( this ).children( "div" ).css("padding-right", position.right);
+	     	$( this ).children( "a:first-child" ).toggleClass('withArrowBottom', 'withArrow');		
+	  	}
+
+   		 $( this ).children( "div" ).show();
+   		 $( this ).children("a:first-child").addClass('activeMenuSubMenu');
+
+  	  }, function() 
+  	  {
+  	  	var idSubMenu = this.id;
+  	  	var classNextElement = $(':hover').last().attr('class');
+  
+  	  
+  	  		var element = this;
+  	  		if(idSubMenu == "subMenuProfil")
+  	  		{
+  	  			$( element ).children( "div" ).hide();  	  	
+			   	$( element ).children("a:first-child").removeClass('activeMenuSubMenu'); 	
+//		   	   	$( "#subMenuProfil .profilContainer" ).removeClass('withArrowProfilBottom');	
+//		   	   	$( "#subMenuProfil .profilContainer" ).addClass('withArrowProfil');	
 //  	  		}
-//  		
-//  	  	
-//  	  	
-//	  		
-//  	  
-//  	  });
+  	  		else
+  	  		{
+	  	  		$( this ).children( "div" ).hide();
+		   		$( this ).children("a:first-child").removeClass('activeMenuSubMenu'); 
+		   	   	$( ".subMenuLink .lienMenu" ).removeClass('withArrowBottom');	
+		   	   	$( ".subMenuLink .lienMenu" ).addClass('withArrow');	
+  	  		}
+  		
+  	  	
+  	  	
+	  		
+  	  
+  	  });
 
 
 		$(".searchInputHeader .gd-search").click(function() 

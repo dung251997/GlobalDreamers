@@ -89,7 +89,7 @@
                             </div>
                         </li>
                         <li class="subMenuLink animated fadeInLeft">
-                            <a href="#" class="withArrow lienMenu">Soutenir un projet</a>
+                            <a href="#" class="withArrow lienMenu" style="padding-top:-5px;">Soutenir un projet</a>
                             <div class="subMenu subMenu2">
                                 <div class="containerSubMenu">
                                     <a href="#"> Sous menu 2</a>

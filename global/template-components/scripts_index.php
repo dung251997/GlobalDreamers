@@ -289,8 +289,8 @@ $(document).ready(function()
 	  	else
 	  	{
    		 	var position = $( this ).offset();
-//   		 	$( this ).children( "div" ).css("padding-right", position.right);
-//	     	$( this ).children( "a:first-child" ).toggleClass('withArrowBottom', 'withArrow');		
+   		 	$( this ).children( "div" ).css("padding-right", position.right);
+	     	$( this ).children( "a:first-child" ).toggleClass('withArrowBottom', 'withArrow');		
 	  	}
 
    		 $( this ).children( "div" ).show();
