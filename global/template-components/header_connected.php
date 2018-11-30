@@ -94,7 +94,6 @@
                 </div>
             </ul>
         </div>
-<<<<<<< HEAD
     </div>
     <div class="top-bar-right">
         <ul class="dropDown menu" data-dropdown-menu>
@@ -113,7 +112,7 @@
                         <a href="#" class="linkSubProfil"> Mes voyages </a>
                         <a href="#" class="linkSubProfil"> Mes contributions </a>
                         <a href="#" class="linkSubProfil"> Se deconnect </a>
-=======
+
         <div class="top-bar-right">
             <ul class="dropDown menu" data-dropdown-menu>
                 <li class="subMenuLink linkProfilName" id="subMenuProfil">
