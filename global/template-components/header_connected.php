@@ -143,20 +143,21 @@
     </div>
     <div class="top-bar-right">
         <ul class="dropDown menu" data-dropdown-menu>
-            <li class="subMenuLink linkProfilName" id="subMenuProfil">
+            <li class="subMenuLink linkProfilName1" id="subMenuProfil1">
                 <a href="#" class="withArrowProfil profilContainer">
+
                     <div class="containerImgTag">
-                        <div class="tagCount">1</div>
+                        <div class="tagCount">2</div>
                         <img src="https://gd-v2-staging.s3.amazonaws.com/storage/user-default.png">
                     </div>
                     <div class="nameProfil"> John Doe</div>
                 </a>
-                <div class="subMenu subMenu2">
+                <div class="subMenu subMenu2" style="margin-top:-30px;">
                     <div class="containerSubMenu">
                         <a href="#" class="linkSubProfil"> Messagerie </a>
                         <a href="#" class="linkSubProfil"> Mes voyages </a>
                         <a href="#" class="linkSubProfil"> Mes contributions </a>
-                        <a href="#" class="linkSubProfil"> ... </a>
+                        <a href="#" class="linkSubProfil"> Se deconnect </a>
                     </div>
                 </div>
             </li>

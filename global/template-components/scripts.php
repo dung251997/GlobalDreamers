@@ -102,10 +102,10 @@ $(document).ready(function()
    		 	$( this ).children( "div" ).css("width", widthMenu);
    		 	var position = $("#subMenuProfil").offset();
    		 	var diff = 200-widthMenu2;
-   		 	var leftPosition = position.left-10;
+		 	var leftPosition = position.left-10;
    		 	var widthDocument = $(document).width();
 
-   		 	var calcul = widthMenu + position.left;
+   		 	var calcul = widthMenu + position.right;
 
    		 	if(calcul > widthDocument)
    		 	{
@@ -114,12 +114,12 @@ $(document).ready(function()
 
    		 	}
 
-   		 	$( this ).children( "div" ).css("left", leftPosition);
+   		 	$( this ).children( "div" ).css("right", rightPosition);
 	  	}
 	  	else
 	  	{
    		 	var position = $( this ).offset();
-   		 	$( this ).children( "div" ).css("padding-left", position.left);
+   		 	$( this ).children( "div" ).css("padding-right", position.right);
 	     	$( this ).children( "a:first-child" ).toggleClass('withArrowBottom', 'withArrow');		
 	  	}
 
