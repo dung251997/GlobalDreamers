@@ -9,12 +9,6 @@
         <div class="flexBoxItem logoGD">
             <div class="gd-logo-mobile"></div>
         </div>
-        <div class="flexBoxItem logoProfil">
-            <div class="containerImgTag">
-                <div class="tagCount">1</div>
-                <img src="https://placehold.it/40x40/888?text=GD">
-            </div>
-        </div>
     </div>
 
 </header>

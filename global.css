@@ -229,10 +229,6 @@ select {
     border: none;
 }
 
-.top-bar {
-    padding: 0;
-}
-
 .top-bar ul {
     background-color: #fff;
     /* text-align: right; */
@@ -506,7 +502,7 @@ header .searchInputHeader .gd-search {
 }
 
 .containerHeader {
-    height: 85px;
+    height: 90px;
     position: relative;
 }
 
@@ -548,61 +544,10 @@ a:visited {
     background-color: #108b9d;
 }
 
-/*.containerSubMenu:after, .containerSubMenu:before {*/
-/*bottom: 100%;*/
-/*left: 50%;*/
-/*border: solid transparent;*/
-/*content: " ";*/
-/*height: 0;*/
-/*width: 0;*/
-/*position: absolute;*/
-/*pointer-events: none;*/
-/*}*/
-
-/*.containerSubMenu:after {*/
-/*border-color: rgba(255, 250, 250, 0);*/
-/*border-bottom-color: #fffafa;*/
-/*border-width: 10px;*/
-/*margin-left: -10px;*/
-/*}*/
-/*.containerSubMenu:before {*/
-/*border-color: rgba(194, 225, 245, 0);*/
-/*border-bottom-color: #c2e1f5;*/
-/*border-width: 11px;*/
-/*margin-left: -11px;*/
-/*}*/
-
 header .subMenu {
-    /*position: fixed;*/
     text-align: center;
-    /*left:10px;*/
-    /*top: 100px;*/
     display: none;
     background-color: white;
-
-    /*width:230px;*/
-
-    /*
-    background-color: #FAFAFA;
-    height:50px;
-
-    border-top: 1px solid #edebe8;
-    border-bottom: 1px solid #edebe8;
-*/
-
-    /*padding: 10px;*/
-
-    /*z-index: 9999;*/
-}
-
-header .subMenu.subMenu3 {
-/*
-    padding: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    top: 83px;
-    height: auto;
-*/
 }
 
 header .subMenu.subMenu3 ul {
@@ -671,6 +616,7 @@ header .linkProfilName a {
 
 header .nameProfil {
     text-align: center;
+    padding-left: 20px;
     vertical-align: middle;
     line-height: 70px;
 }
@@ -838,7 +784,7 @@ header .containerProfilText {
 }
 
 header.headerMobile .flexBoxHeaderMobile .flexBoxItem.logoProfil {
-    padding-top: 18px;
+    padding-top: 5px;
 }
 
 .menuLeftMobile {
@@ -4811,6 +4757,8 @@ nav.searchExplorer .containerInput input:focus {
 
 div.gd-logo {
     margin-top: -25px;
+    margin-left: 51px;
+    margin-right: 68px;
 }
 
 #popinSignIn .gd-logo {
@@ -5558,12 +5506,6 @@ div.gd-logo {
 
 /* SPEC POPIN */
 
-.containerCounterParty .gd-logo {
-    margin: auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
 .reveal .containerCounterParty {
     padding: 0px;
 }
@@ -5952,12 +5894,12 @@ screen and (min-width: 1910px) {
     }
 
     header .menu .blockMenu a {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         transform: translateY(30%);
     }
 
     header .top-bar-right a {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     header.headerNoConnect .lastLiHeader {
@@ -5969,7 +5911,8 @@ screen and (min-width: 1910px) {
     }
 
     header li {
-        padding-right: 35px;
+        width: 300px;
+        text-align: center;
     }
 
     .createProjectButton {
@@ -6736,12 +6679,30 @@ screen and (max-width: 1023px) {
     border-radius: 50%;
     border-bottom: 0;
 }
-.gd-logo{
-    max-width: 164px;
-}
 .buttonGroup{
     padding-top: 20px;
     text-align: center;
+}
+.flexName{
+    display: flex;
+    flex-direction: row;
+}
+.containerName{
+    margin: 10px;
+}
+#home > header.headerPC.headerNoConnect > div.top-bar-right > div.flexName > div.containerImgTag{
+    margin-top: 10px;
+}
+#home > header.headerPC.headerNoConnect > div.top-bar-right > div > ul > li > a{
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+#home > header.headerPC.headerNoConnect > div.top-bar-right > div > ul > li > div{
+    top: 85%;
+}
+#home > header.headerPC.headerNoConnect > div.top-bar-right > div > ul > li {
+    width: unset !important;
 }
 
 

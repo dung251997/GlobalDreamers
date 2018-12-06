@@ -1,3 +1,21 @@
+<head>
+    <style>
+        .menuLeft{
+            text-align: right;
+        }
+        .menuRight{
+            text-align: left;
+        }
+        .containerLeft{
+            left: 79%;
+        }
+        .containerRight{
+            left: 38%;
+        }
+    </style>
+</head>
+
+
 <header class="headerMobile">
 
     <div class="flexBoxHeaderMobile">
@@ -63,10 +81,10 @@
             <ul class="dropDown menu centering" data-dropdown-menu>
                 <div class="flexBoxHeader verticalAlign">
                     <div class="verticalAlignItem blockMenu">
-                        <li class="subMenuLink animated fadeInLeft">
-                            <a href="#" class="withArrow lienMenu ">Explorer</a>
+                        <li class="subMenuLink animated fadeInLeft menuLeft">
+                            <a href="#" class="lienMenu">Explorer</a>
                             <div class="subMenu subMenu1">
-                                <div class="containerSubMenu">
+                                <div class="containerSubMenu containerLeft">
                                     <a href="#">Sous menu</a>
                                     <a href="#">Sous menu</a>
                                     <a href="#">Sous menu</a>
@@ -79,10 +97,10 @@
                                 <div class="gd-logo animated fadeInDown"></div>
                             </a>
                         </li>
-                        <li class="subMenuLink animated fadeInRight">
-                            <a href="#" class="withArrow lienMenu ">Soutenir un projet</a>
+                        <li class="subMenuLink animated fadeInRight menuRight">
+                            <a href="#" class="lienMenu ">Soutenir un projet</a>
                             <div class="subMenu subMenu2">
-                                <div class="containerSubMenu">
+                                <div class="containerSubMenu containerRight">
                                     <a href="#"> Sous menu 2</a>
                                     <a href="#"> Sous menu 2</a>
                                     <a href="#"> Sous menu 2</a>
@@ -96,48 +114,23 @@
         </div>
     </div>
     <div class="top-bar-right">
-        <ul class="dropDown menu" data-dropdown-menu>
-            <li class="subMenuLink linkProfilName" id="subMenuProfil1">
-                <a href="#" class="withArrowProfil profilContainer">
-
-                    <div class="containerImgTag">
-                        <div class="tagCount">2</div>
-                        <img src="https://gd-v2-staging.s3.amazonaws.com/storage/user-default.png">
-                    </div>
-                    <div class="nameProfil"> John Doe</div>
-                </a>
-                <div class="subMenu subMenu2" style="margin-top:-30px;">
-                    <div class="containerSubMenu">
-                        <a href="#" class="linkSubProfil"> Messagerie </a>
-                        <a href="#" class="linkSubProfil"> Mes voyages </a>
-                        <a href="#" class="linkSubProfil"> Mes contributions </a>
-                        <a href="#" class="linkSubProfil"> Se deconnect </a>
-
-<!--
-        <div class="top-bar-right">
-            <ul class="dropDown menu" data-dropdown-menu>
-                <li class="subMenuLink linkProfilName" id="subMenuProfil">
-                    <a href="#" class="withArrowProfil profilContainer">
-                        <div class="containerImgTag">
-                            <div class="tagCount">1</div>
-                            <img src="https://gd-v2-staging.s3.amazonaws.com/storage/user-default.png">
-                        </div>
-                        <div class="nameProfil"> John Doe</div>
-                    </a>
-                    <div class="subMenu subMenu2">
+        <div class="flexName">
+            <div class="containerImgTag">
+                <div class="tagCount">2</div>
+                <img src="https://gd-v2-staging.s3.amazonaws.com/storage/user-default.png">
+            </div>
+            <ul class="dropDown menu centering" data-dropdown-menu>
+                <li class="subMenuLink animated fadeInLeft">
+                    <a href="#" class="lienMenu ">John Doe</a>
+                    <div class="subMenu subMenu1">
                         <div class="containerSubMenu">
                             <a href="#" class="linkSubProfil"> Messagerie </a>
                             <a href="#" class="linkSubProfil"> Mes voyages </a>
                             <a href="#" class="linkSubProfil"> Mes contributions </a>
-                            <a href="#" class="linkSubProfil"> ... </a>
+                            <a href="#" class="linkSubProfil"> Se deconnect </a>
                         </div>
-
                     </div>
                 </li>
             </ul>
         </div>
--->
-    </div>
-                </div>
-            </li>
 </header>
