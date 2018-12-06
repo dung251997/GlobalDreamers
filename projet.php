@@ -11,7 +11,7 @@
 <body id="home">
 	
 <!-- Header header.php / header_connected.php -->
-<?php require('global/template-components/header.php'); ?>
+<?php require('global/template-components/header_connected.php'); ?>
 <!-- Header -->
 
 
@@ -44,8 +44,8 @@
   </div>
 </div>
 
-<article class="grid-container full special_bg bio">
-	
+<!--<article class="grid-container full special_bg bio">-->
+	<article class="grid-container full bio">
           <div class="grid-container">
             <div class="grid-x grid-margin-x align-center">
                

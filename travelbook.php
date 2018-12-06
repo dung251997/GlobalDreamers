@@ -11,7 +11,7 @@
 <body id="home">
 	
 <!-- Header header.php / header_connected.php -->
-<?php require('global/template-components/header.php'); ?>
+<?php require('global/template-components/header_connected.php'); ?>
 <!-- Header -->
 
 
@@ -33,8 +33,8 @@
     <div class="coreMenu">
       <ul>
         <li><a href="bio.php#scroll" >bio</a></li>
-        <li class="active"><a href="projet.php#scoll">mon projet</a></li>
-        <li><a href="travelbook.php#scroll" class="active">carnet de voyage</a></li>
+        <li><a href="projet.php#scroll">mon projet</a></li>
+        <li class="active"><a href="travelbook.php#scroll" class="active">carnet de voyage</a></li>
       </ul>
     </div>
 
@@ -44,8 +44,8 @@
   </div>
 </div>
 
-<article class="grid-container full special_bg bio">
-	
+<!--<article class="grid-container full special_bg bio">-->
+	<article class="grid-container full bio">
           <div class="grid-container">
             <div class="grid-x grid-margin-x align-center">
                
