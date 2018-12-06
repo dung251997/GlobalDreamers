@@ -19,7 +19,7 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full special_bg_white stepPage">
+<article class="grid-container full stepPage">
 
   <div class="containerStep stepFive ">
 
@@ -28,7 +28,10 @@
         <p>Notre équipe est en train d'étudier votre projet et reviendra vers vous  dans les plus brefs délais. <br /> Vous pouvez à tout moment le modifier en cliquant sur le lien ci-dessous : </p>
 
 
-        <center><button class="buttonPrev">Modifier mon projet</button></center>
+    
+        <a href="#">
+                    <button class="createProjectButton">Modifier mon projet</button>
+                </a>
 
   </div>
 

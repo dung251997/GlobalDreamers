@@ -19,7 +19,7 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full special_bg_white stepPage">
+<article class="grid-container full stepPage">
 
   <div class="containerStep">
 
@@ -337,7 +337,12 @@
       </div>
 
 
-      <center><input type="submit" value="Continuer"></center>
+<div class="buttonGroup">
+<a href="#">
+                    <button class="createProjectButton">Continuer</button>
+                </a>
+</div>
+     
 
     </form>
 

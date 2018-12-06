@@ -85,7 +85,6 @@ Réalisez le.</figcaption>
 
   <div class="containerUnderHomePageMobile">
   <h1>Comment ça marche ? </h1>
-
     <div id="carousel" class="owl-carousel carouselMobileCCM">
       <div class="item blockUnderHomePage">
         <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-1"><div class="gd-circle-orange-splash">1</div></div></a>
@@ -114,7 +113,7 @@ Réalisez le.</figcaption>
  
 
 
-  <div class="containerUnderHomePage">
+  <div class="containerUnderHomePage" style="padding-bottom: 50px;">
   <h1>Comment ça marche ? </h1>
 
       <div class="grid-x grid-margin-x align-center blockCCMPC">
@@ -146,7 +145,7 @@ Réalisez le.</figcaption>
   </div>
 </div>
 
-<article class="grid-container full special_bg_white">
+<article class="grid-container full">
   
   <?php require('global/template-components/post_grid.php'); ?>
 

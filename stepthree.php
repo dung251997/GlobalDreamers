@@ -19,7 +19,7 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full special_bg_white stepPage">
+<article class="grid-container full stepPage">
 
   <div class="containerStep stepThree backgroundWhite">
 
@@ -322,8 +322,13 @@
 
             </div>
 
-     <center><button class="butonMore">Afficher plus </button></center>
+<div class="buttonGroup">
+<a href="#">
+                    <button class="createProjectButton">Afficher plus</button>
+                </a>
 
+</div>
+         
 
       <h2 class="step3H2"> Contreparties POUR LES entreprises</h2>
 
@@ -496,10 +501,16 @@
 
 
             </div>
-     <center><button class="butonMore">Afficher plus </button></center>
+            <div class="buttonGroup">
+            <a href="#">
+                    <button class="createProjectButton">Afficher plus</button>
+                </a>
+                <a href="#">
+                    <button class="createProjectButton">Continuer</button>
+                </a>
+            </div>
+     
 
-
-      <center><input type="submit" value="Continuer"></center>
 
     </form>
 

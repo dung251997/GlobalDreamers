@@ -19,7 +19,7 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full special_bg_white stepPage">
+<article class="grid-container full stepPage">
 
   <div class="containerStep stepTwo backgroundWhite">
 
@@ -112,7 +112,12 @@
       <h4>Vos dépenses ?</h4>      
 
       <textarea class="editorHTMLTextarea"></textarea>
-      <center><input type="submit" value="Continuer"></center>
+      <div class="buttonGroup">
+      <a href="#">
+                    <button class="createProjectButton">Continuer</button>
+                </a>
+      </div>
+     
 
  <input name="image" type="file" id="upload" onchange="" style="display: none;">
 

@@ -19,7 +19,7 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full special_bg_white stepPage">
+<article class="grid-container full stepPage">
 
   <div class="containerStep stepFour backgroundWhite">
 
@@ -284,8 +284,15 @@
           </section>
 
 
-
-      <center><button class="buttonPrev">Précédent</button><input type="submit" value="Soumettre mon projet"></center>
+      <div class="groupButton" style="padding-top: 20px;">
+      <a href="#">
+                    <button class="createProjectButton">Précédent</button>
+                </a>
+                <a href="#">
+                    <button class="createProjectButton">Soumettre mon projet</button>
+                </a>
+      </div>
+    
 
     </form>
 

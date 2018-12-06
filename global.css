@@ -6742,6 +6742,10 @@ screen and (max-width: 1023px) {
 .gd-logo{
     max-width: 164px;
 }
+.buttonGroup{
+    padding-top: 20px;
+    text-align: center;
+}
 
 
 
