@@ -11,7 +11,7 @@
 <body id="home">
 	
 <!-- Header header.php / header_connected.php -->
-<?php require('global/template-components/header.php'); ?>
+<?php require('global/template-components/header_connected.php'); ?>
 <!-- Header -->
 
 
@@ -542,9 +542,11 @@
 <div class="gd-arrow-top"></div>
 </div></a>
 
+<!--
 <a href="#"><div class="needHelp">
 <div class="gd-help"></div><div class="textNeedHelp">Besoin d'aide ? </div>
 </div></a>
+-->
 
 <a href="#" class="buttonFixedMobile">JE SOUTIENS</a>
 
