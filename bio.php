@@ -42,8 +42,8 @@
   </div>
 </div>
 
-<article class="grid-container full special_bg bio">
-	
+<article class="grid-container full bio">
+<!--	<article class="grid-container full special_bg bio">-->
           <div class="grid-container">
             <div class="grid-x grid-margin-x align-center">
                
