@@ -60,25 +60,11 @@
 <header class="headerPC headerNoConnect">
     <div class="containerHeader">
         <div class="top-bar" id="example-animated-menu" data-options="sticky_on: large">
-            <!--            <div class="top-bar-left">-->
             <ul class="dropDown menu centering" data-dropdown-menu>
                 <div class="flexBoxHeader verticalAlign">
-                    <!--
-                                            <div class="verticalAlignItem blockLogo">
-
-                                                <li>
-
-                                                    <a href="#">
-                                                        <div class="gd-logo"></div>
-                                                    </a>
-
-                                                </li>
-
-                                            </div>
-                    -->
                     <div class="verticalAlignItem blockMenu">
                         <li class="subMenuLink animated fadeInLeft">
-                            <a href="#" class="withArrow lienMenu ">Explorer</a>
+                            <a href="#" class="lienMenu ">Explorer</a>
                             <div class="subMenu subMenu1">
                                 <div class="containerSubMenu">
                                     <a href="#">Sous menu</a>
@@ -89,7 +75,7 @@
                             </div>
                         </li>
                         <li class="subMenuLink animated fadeInLeft">
-                            <a href="#" class="withArrow lienMenu" style="padding-top:-5px;">Soutenir un projet</a>
+                            <a href="#" class="lienMenu">Soutenir un projet</a>
                             <div class="subMenu subMenu2">
                                 <div class="containerSubMenu">
                                     <a href="#"> Sous menu 2</a>
@@ -100,45 +86,17 @@
                             </div>
                         </li>
                         <li>
-                            <!--                            <div class="verticalAlignItem blockLogo">-->
                             <a href="#">
                                 <div class="gd-logo animated fadeInDown"></div>
                             </a>
-                            <!--                                </div>-->
                         </li>
                         <li class="animated fadeInRight"><a href="javascript:void(0)" data-open="popinSignIn">Créer un projet</a></li>
-                        <!--                        <li><a href="javascript:void(0)" data-open="popinSignIn">Nouvelle Page</a></li>-->
                         <li class="linkConnect animated fadeInRight">
                             <a href="#">Se connecter</a>
                         </li>
                     </div>
                 </div>
             </ul>
-            <!--            </div>-->
-            <!--            <div class="top-bar-right">-->
-            <!--                <ul class="dropdown menu" data-dropdown-menu>-->
-            <!--
-                                        <li class="liInputSearch">
-                                            <div class="searchInputHeader">
-
-                                                <input type="search" class="borderEffect">
-                                                <span class="focusBorderEffect"></span>
-                                                <div class="gd-search"></div>
-
-                                            </div>
-                                        </li>
-                    -->
-            <!--
-                <li class="lastLiHeader">
-                    <a href="#"><div class="gd-en"></div></a>
-                </li>
-        -->
-
-
-            <!--                </ul>-->
-            <!--            </div>-->
         </div>
-
-
     </div>
 </header>

@@ -30,18 +30,6 @@ else
 
 
     <style type="text/css">
-
-        @font-face {
-        font-family: 'GoodDog';
-        src: url('<?php echo $URL_S3; ?>fonts/gooddog_plain_regular-webfont.eot?');
-        src:local('☺'),
-        url('fonts/gooddog_plain_regular.eot?#iefix') format('embedded-opentype'),
-        url('<?php echo $URL_S3; ?>fonts/gooddog_plain_regular.woff') format('woff'),
-        url('<?php echo $URL_S3; ?>fonts/gooddog_plain_regular.ttf')format('truetype'),
-        url('<?php echo $URL_S3; ?>fonts/gooddog_plain_regular.svg#opensans-regular-webfont') format('svg');
-        font-weight: 400;
-        font-style: normal;
-        }
         @font-face {
         font-family: 'OpenSans';
         src: url('<?php echo $URL_S3; ?>fonts/opensans-regular-webfont.eot?');
@@ -75,18 +63,6 @@ else
         url('<?php echo $URL_S3; ?>fonts/OpenSans-Bold.woff') format('woff'),
         url('<?php echo $URL_S3; ?>fonts/OpenSans-Bold.ttf') format('truetype'),
         url('<?php echo $URL_S3; ?>fonts/OpenSans-Bold.svg#OpenSans') format('svg');
-        font-weight: 700;
-        font-style: normal;
-        }
-        @font-face 
-        {
-        font-family: 'Arvo Bold';
-        src: url('<?php echo $URL_S3; ?>fonts/arvo-bold-webfont.eot');
-        src: local('☺'),
-        url('<?php echo $URL_S3; ?>fonts/arvo-bold-webfont.eot?#iefix') format('embedded-opentype'),
-        url('<?php echo $URL_S3; ?>fonts/arvo-bold-webfont.woff') format('woff'),
-        url('<?php echo $URL_S3; ?>fonts/arvo-bold-webfont.ttf')format('truetype'),
-        url('<?php echo $URL_S3; ?>fonts/arvo-bold-webfont.svg#arvo-bold-webfont') format('svg');
         font-weight: 700;
         font-style: normal;
         }
@@ -914,68 +890,6 @@ else
             background-repeat: no-repeat;
             background-position: -430px -195px;
          }
-
-        .menu a.withArrow:after
-        {   
-            position: absolute;
-            top:42%;
-            margin-left: 9px;
-            content:'';
-            width: 20px;
-            height: 11px;
-            background-repeat: no-repeat;
-            background-position: -430px -195px;
-        }
-
-
-        .menu a.withArrowBottom:after
-        {   
-            position: absolute;
-            top:83%;
-            margin-left: auto;
-            margin-right: auto;
-            left: 0;
-            right: 0;
-            content:'';
-            width: 20px;
-            height: 11px;
-            background-repeat: no-repeat;
-            background-position: -430px -195px;
-        }
-
-
-        .menu a.withArrowProfil:after
-        {
-            background-image: url(<?php echo $URL_S3; ?>images/sprite.png)
-        }
-
-        .menu a.withArrowProfil:after
-        {   
-            position: absolute;
-            top:42%;
-            right:-25px;
-            margin-left: 9px;
-            content:'';
-            width: 20px;
-            height: 11px;
-            background-repeat: no-repeat;
-            background-position: -430px -195px;
-        }
-
-        .menu a.withArrowProfilBottom:after
-        {   
-            position: absolute;
-            top: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            left: 0;
-            right: 0;
-            content:'';
-            width: 20px;
-            height: 11px;
-            background-repeat: no-repeat;
-            background-position: -430px -195px;
-        }
         #subMenuProfil > a {
             margin: unset !important;
             padding: unset !important;

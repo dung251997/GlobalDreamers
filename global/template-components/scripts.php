@@ -91,7 +91,7 @@ $(document).ready(function()
 
 		if(idLink == "subMenuProfil")
 	  	{
-		   $( "#subMenuProfil .profilContainer" ).toggleClass('withArrowProfilBottom', 'withArrowProfil');	
+		   $( "#subMenuProfil .profilContainer" ).toggleClass();	
 
 	  	   var widthMenu = $("#subMenuProfil").width();
 	  	   var widthMenu2 = widthMenu;
@@ -120,7 +120,7 @@ $(document).ready(function()
 	  	{
    		 	var position = $( this ).offset();
    		 	$( this ).children( "div" ).css("padding-right", position.right);
-	     	$( this ).children( "a:first-child" ).toggleClass('withArrowBottom', 'withArrow');		
+	     	$( this ).children( "a:first-child" ).toggleClass();		
 	  	}
 
    		 $( this ).children( "div" ).show();
@@ -137,15 +137,10 @@ $(document).ready(function()
   	  		{
   	  			$( element ).children( "div" ).hide();  	  	
 			   	$( element ).children("a:first-child").removeClass('activeMenuSubMenu'); 	
-//		   	   	$( "#subMenuProfil .profilContainer" ).removeClass('withArrowProfilBottom');	
-//		   	   	$( "#subMenuProfil .profilContainer" ).addClass('withArrowProfil');	
-//  	  		}
   	  		else
   	  		{
 	  	  		$( this ).children( "div" ).hide();
 		   		$( this ).children("a:first-child").removeClass('activeMenuSubMenu'); 
-		   	   	$( ".subMenuLink .lienMenu" ).removeClass('withArrowBottom');	
-		   	   	$( ".subMenuLink .lienMenu" ).addClass('withArrow');	
   	  		}
   		
   	  	
