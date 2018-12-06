@@ -984,13 +984,13 @@ else
 
 
 
-        @media screen and (max-width: 1939px) {.special_bg { background-image: url(<?php echo $URL_S3; ?>images/bg-right.png),url(<?php echo $URL_S3; ?>images/bg-left.png),linear-gradient(to bottom, #ffffff 0%,#f4f3f3 15%,#f4f3f3 100%); }}
+        /* @media screen and (max-width: 1939px) {.special_bg { background-image: url(<?php echo $URL_S3; ?>images/bg-right.png),url(<?php echo $URL_S3; ?>images/bg-left.png),linear-gradient(to bottom, #ffffff 0%,#f4f3f3 15%,#f4f3f3 100%); }}
 
         @media screen and (min-width: 1940px) {.special_bg {background-image: url(<?php echo $URL_S3; ?>images/bg-right.png),url(<?php echo $URL_S3; ?>images/bg-left.png),linear-gradient(to bottom, #ffffff 0%,#f4f3f3 15%,#f4f3f3 100%);   }}
 
         @media screen and (max-width: 1939px) {.special_bg_white {background-image: url(<?php echo $URL_S3; ?>images/bg-right.png),url(<?php echo $URL_S3; ?>images/bg-left.png),linear-gradient(to bottom, #ffffff 0%,#fff 15%,#fff 100%);   }}
 
         @media screen and (min-width: 1940px) {.special_bg_white {background-image: url(<?php echo $URL_S3; ?>images/bg-right.png),url(<?php echo $URL_S3; ?>images/bg-left.png),linear-gradient(to bottom, #ffffff 0%,#fff 15%,#fff 100%);  }}
-
+ */
 
     </style>
