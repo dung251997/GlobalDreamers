@@ -5888,7 +5888,7 @@ screen and (min-width: 1910px) {
     }
 
     header .menu .blockMenu a {
-        font-size: 1.15rem;
+        font-size: 1.0rem;
         transform: translateY(30%);
     }
 
@@ -5939,7 +5939,7 @@ screen and (min-width: 1910px) {
     }
 
     header .menu .subMenu a {
-        font-size: 1.0625rem;
+        font-size: 1.0rem;
     }
 
     .containerMenubio li a {
