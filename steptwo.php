@@ -19,7 +19,7 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full stepPage">
+<article class="grid-container full stepPage cguContainer">
 
   <div class="containerStep stepTwo backgroundWhite">
 
@@ -124,6 +124,8 @@
     </form>
 
   </div>
+  <div class="bottomCircle"></div>
+
 
 </article>
 
@@ -140,7 +142,9 @@
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+		<?php require('global/template-components/footer.php'); ?>
+	</div>
 <!-- Footer -->
 
 <!-- Scripts -->

@@ -22,7 +22,7 @@
 </div>
 
 
-<article class="grid-container full special_bg_white annexPage">
+<article class="grid-container full cguContainer annexPage">
 
 	
   <div class="menuAnnexPage">
@@ -104,7 +104,7 @@
 		La reproduction de tout ou partie des documents figurant sur ce site est strictement interdite sans l&rsquo;accord pr&eacute;alable et &eacute;crit de son auteur.</p>
 
   </div>
-  <div style="height:50px;"></div>
+  <div class="bottomCircle"></div>
 
 
 </article>
@@ -122,7 +122,9 @@
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+    <?php require('global/template-components/footer.php'); ?>
+  </div>
 <!-- Footer -->
 
 <!-- Scripts -->

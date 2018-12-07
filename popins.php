@@ -18,7 +18,7 @@
 
 
 
-<article class="grid-container full special_bg_white annexPage" style="margin-top: 100px; text-align: center;">
+<article class="grid-container full cguContainer annexPage" style="margin-top: 100px; text-align: center;">
  
 <a href="#" data-open="popin_don_counterparty">•  Popup 21 - Choisir montant don </a> <br>
 <a href="#" data-open="popin_perso_counterparty">•  Popup 22 - Personnaliser contrepartie </a> <br>
@@ -27,7 +27,6 @@
 
 
 </article>
-
 
 <div class="reveal small" id="popinSignIn" data-reveal>
 	<div class="gd-logo"></div>

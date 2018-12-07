@@ -25,7 +25,7 @@
   }
 </style>
 
-<article class="grid-container full special_bg_white stepPage">
+<article class="grid-container full cguContainer stepPage">
 
   <div class="containerStep" style="display: flex; flex-wrap: wrap;">
 
@@ -161,6 +161,7 @@
 
 
   </div>
+  <div class="bottomCircle"></div>
 
 </article>
 
@@ -177,7 +178,9 @@
 <!-- Contenu -->	
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+    <?php require('global/template-components/footer.php'); ?>
+  </div>
 <!-- Footer -->
 
 <!-- Scripts -->

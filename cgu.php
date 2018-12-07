@@ -22,7 +22,7 @@
 </div>
 
 
-<article class="grid-container full special_bg_white annexPage">
+<article class="grid-container full annexPage cguContainer">
 
 	
   <div class="menuAnnexPage">
@@ -362,9 +362,7 @@
             <p>A titre indicatif, il est obligatoire d’avoir au moins 3 photos/images, une vidéo, un texte de 150 mots, ainsi que 6 contreparties proposées (3 à destination des donateurs et 3 à destination des sponsors).</p>
 
   </div>
-  <div style="height:50px;"></div>
-
-
+  <div class="bottomCircle"></div>
 </article>
 
 
@@ -380,7 +378,9 @@
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+            <?php require('global/template-components/footer.php'); ?>
+        </div>
 <!-- Footer -->
 
 <!-- Scripts -->

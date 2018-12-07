@@ -19,9 +19,9 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full stepPage">
+<article class="grid-container full stepPage cguContainer">
 
-  <div class="containerStep stepFive ">
+  <div class="containerStep stepFive">
 
         <h1 class="stepFiveTitle">Votre demande est en cours de traitement... </h1>
 
@@ -35,6 +35,7 @@
 
   </div>
 
+		<div class="bottomCircle"></div>
 
 </article>
 
@@ -51,7 +52,9 @@
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+		<?php require('global/template-components/footer.php'); ?>
+	</div>
 <!-- Footer -->
 
 <!-- Scripts -->

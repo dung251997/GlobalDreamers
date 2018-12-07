@@ -2873,15 +2873,12 @@ screen and (min-width: 1023px) {
     left: 80%;
 }
 
-.stepPage {
-    margin-top: 115px !important;
-}
-
 .containerStep {
     margin: auto;
     max-width: 1200px;
     padding: 15px;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .containerStep h1 {
@@ -3604,6 +3601,7 @@ screen and (max-width: 1023px) {
 }
 
 .containerStep.stepFive {
+    padding-top: 200px;
     text-align: center;
 }
 
@@ -5584,12 +5582,9 @@ div.gd-logo {
 
 .containerAnnexPage {
     background-color: white;
-    margin: auto;
     max-width: 1160px;
     padding: 15px;
     padding: 70px;
-    box-shadow: 0px 8px 13px 0 rgba(0, 0, 0, 0.25);
-
 }
 
 .containerAnnexPage h1 {
@@ -5733,7 +5728,6 @@ div.gd-logo {
     max-width: 1160px;
     padding: 15px;
     padding: 70px;
-    box-shadow: 0px 8px 13px 0 rgba(0, 0, 0, 0.25);
 }
 
 .containerPageSoutien a {
@@ -6534,7 +6528,6 @@ screen and (max-width: 1023px) {
 
 #post_grid {
     max-width: 1200px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     background-color: white;
 }
 
@@ -6704,6 +6697,27 @@ screen and (max-width: 1023px) {
 #home > header.headerPC.headerNoConnect > div.top-bar-right > div > ul > li {
     width: unset !important;
 }
+
+
+/* bio css */
+.bioContainter{
+    background-color: white;
+    max-width: 1200px !important;
+    box-shadow: 6px 0 15px -4px rgba(0, 0, 0, 0.25), -7px 0 15px -4px rgba(0, 0, 0,  0.22);
+    position: relative;
+}
+.cguContainer{
+    background-color: white;
+    position: relative;
+    max-width: 1200px !important;
+    box-shadow: 6px 0 15px -4px rgba(0, 0, 0, 0.25), -7px 0 15px -4px rgba(0, 0, 0,  0.22);
+}
+.articleContainer{
+    background-color: white;
+    max-width: 1200px !important;
+    box-shadow: 6px 0 15px -4px rgba(0, 0, 0, 0.25), -7px 0 15px -4px rgba(0, 0, 0,  0.22);
+}
+
 
 
 

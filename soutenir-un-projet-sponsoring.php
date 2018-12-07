@@ -27,7 +27,7 @@
 
 
 
-<article class="grid-container full special_bg_white soutienPage">
+<article class="grid-container full cguContainer soutienPage">
 
 	
   <div class="menuPageSoutien">
@@ -110,7 +110,7 @@ Les voyageurs ont terminé leur campagne, mais continuent, une fois partis, à r
 
 
   </div>
-  <div style="height:50px;"></div>
+  <div class="bottomCircle"></div>
 
 
 </article>
@@ -128,7 +128,9 @@ Les voyageurs ont terminé leur campagne, mais continuent, une fois partis, à r
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+    <?php require('global/template-components/footer.php'); ?>
+  </div>
 <!-- Footer -->
 
 <!-- Scripts -->

@@ -21,8 +21,7 @@
   </div>
 </div>
 
-
-<article class="grid-container full special_bg_white annexPage">
+<article class="grid-container full annexPage cguContainer">
 
 	
   <div class="menuAnnexPage">
@@ -49,8 +48,8 @@
 	<p>
 	Sed risus diam, rutrum non pellentesque eu, aliquet ac eros. Etiam tempus, turpis in imperdiet iaculis, nulla velit fringilla tellus, eu hendrerit nisi quam vitae odio. Sed augue libero, auctor non tempor eu, eleifend quis quam. Quisque faucibus hendrerit sapien vel vehicula. Pellentesque luctus odio odio, vel efficitur lectus finibus eu. Nam egestas volutpat mi, at eleifend tellus eleifend eget. Nulla non diam elit. Nulla sem mauris, pretium quis sapien tincidunt, aliquam condimentum nisl. Suspendisse auctor sodales semper. Praesent faucibus placerat nisi in ultricies. Nullam vel lorem in ante lacinia dictum.
 	</p>
-  </div>
-  <div style="height:50px;"></div>
+	</div>
+	<div class="bottomCircle"></div>
 
 
 </article>
@@ -68,7 +67,9 @@
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+            <?php require('global/template-components/footer.php'); ?>
+        </div>
 <!-- Footer -->
 
 <!-- Scripts -->

@@ -45,7 +45,7 @@
 </div>
 
 <!--<article class="grid-container full special_bg bio">-->
-	<article class="grid-container full bio">
+	<article class="grid-container full bio cguContainer">
           <div class="grid-container">
             <div class="grid-x grid-margin-x align-center">
                
@@ -635,6 +635,8 @@
 
   </div>     
 </div>
+<div class="bottomCircle"></div>
+
 
 </article>
 
@@ -756,7 +758,10 @@
 <!-- Contenu -->	
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<!-- Footer -->
+<div class="footerAbsolute">
+		<?php require('global/template-components/footer.php'); ?>
+	</div>
 <!-- Footer -->
 
 <!-- Scripts -->

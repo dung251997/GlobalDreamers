@@ -19,7 +19,7 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full special_bg_white">
+<article class="grid-container full special_bg_white cguContainer">
 
   <div class="containerCounterParty" style="padding-top: 100px;">
 
@@ -341,6 +341,7 @@
 
 
   </div>
+  <div class="bottomCircle"></div>
 
 </article>
 
@@ -357,7 +358,9 @@
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+            <?php require('global/template-components/footer.php'); ?>
+        </div>
 <!-- Footer -->
 
 <!-- Scripts -->

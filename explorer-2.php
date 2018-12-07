@@ -21,7 +21,7 @@
 </nav>
 
 
-<article class="grid-container full special_bg projects">
+<article class="grid-container full projects cguContainer">
 	
      
 <!-- Post Grid -->
@@ -509,6 +509,7 @@
         <div class="deleteFilter deleteFilter2"> <a href="#"> Retirer le filtre </a> </div>
 
     </div>
+    <div class="bottomCircle"></div>
 
 <!-- Post Grid -->
 
@@ -525,7 +526,9 @@
 <!-- Contenu -->	
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+            <?php require('global/template-components/footer.php'); ?>
+        </div>
 <!-- Footer -->
 
 

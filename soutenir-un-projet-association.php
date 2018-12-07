@@ -28,7 +28,7 @@
 </div>
 
 
-<article class="grid-container full special_bg_white soutienPage">
+<article class="grid-container full cguContainer soutienPage">
 
 	
   <div class="menuPageSoutien">
@@ -128,7 +128,7 @@
 
 
   </div>
-  <div style="height:50px;"></div>
+  <div class="bottomCircle"></div>
 
 
 </article>
@@ -146,7 +146,10 @@
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<!-- Footer -->
+<div class="footerAbsolute">
+    <?php require('global/template-components/footer.php'); ?>
+  </div>
 <!-- Footer -->
 
 <!-- Scripts -->

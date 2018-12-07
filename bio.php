@@ -42,7 +42,7 @@
   </div>
 </div>
 
-<article class="grid-container full bio">
+<article class="grid-container full bio bioContainter">
 <!--	<article class="grid-container full special_bg bio">-->
           <div class="grid-container">
             <div class="grid-x grid-margin-x align-center">
@@ -535,6 +535,7 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
+          <div class="bottomCircle"></div>
 
 </article>
 
@@ -553,7 +554,9 @@
 <!-- Contenu -->	
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+            <?php require('global/template-components/footer.php'); ?>
+        </div>
 <!-- Footer -->
 
 <!-- Scripts -->

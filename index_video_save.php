@@ -113,39 +113,108 @@ Réalisez le.</figcaption>
  
 
 
-  <div class="containerUnderHomePage" style="padding-bottom: 50px;">
-  <h1>Comment ça marche ? </h1>
+  
+  <div class="underSlideHomePage">
 
+    <div class="containerUnderHomePage" style="height: 750px;">
+      <h2 style="margin-left:800px">Comment ça marche ? </h2>
       <div class="grid-x grid-margin-x align-center blockCCMPC">
-         
-          <div class="small-12 medium-12 large-auto cell blockUnderHomePage">
-            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-1"><div class="gd-circle-orange">1</div></div></a>
-            <p>Présentez votre projet impactant</p>
-          </div>
-          
-           <div class="small-126 medium-12 large-auto cell blockUnderHomePage">
-            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-2"><div class="gd-circle-orange">2</div></div></a>
-            <p>Démarrez le crowdfunding</p>
-          </div>
+        <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="
+            width: 49%;
+            margin-left: 900px;
+            padding-bottom: 0px;
+            margin-right: 0px;">
+          <a href="#" class="hoverSplashHomePage">
+            <div class="gd-circle-orange-fix">1</div>
 
-           <div class="small-12 medium-12 large-auto cell blockUnderHomePage">
-            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-3"><div class="gd-circle-orange">3</div></div></a>
-            <p>Attirez des sponsors</p>
-          </div>
-              
-           <div class="small-12 medium-12 large-auto cell blockUnderHomePage">
-            <a href="#" class="hoverSplashHomePage"><div class="gd-homepage-4"><div class="gd-circle-orange">4</div></div></a>
-            <p>Réalisez votre rêve</p>          
-          </div>
+            <div class="gd-homepage-1">
+            </div>
+          </a>
+          <p style="
+    width: 300px;">Présentez votre projet impactant</p>
+        </div>
+        <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="
+            width: 49%;
+            margin-left: 900px;
+            padding-bottom: 0px;
+            margin-right: 0px;">
+          <a href="#" class="hoverSplashHomePage">
+            <div class="gd-circle-orange-fix">2</div>
 
-          
+            <div class="gd-homepage-2">
+            </div>
+          </a>
+          <p style="
+    width: 300px;">Démarrez le crowdfunding</p>
+        </div>
+        <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="
+            width: 49%;
+            margin-left: 900px;
+            padding-bottom: 0px;
+            margin-right: 0px;">
+          <a href="#" class="hoverSplashHomePage">
+            <div class="gd-circle-orange-fix">3</div>
+
+            <div class="gd-homepage-3">
+            </div>
+          </a>
+          <p style="
+    width: 300px;">Attirez des sponsors</p>
+        </div>
+        <div class="small-12 medium-12 large-auto cell blockUnderHomePage" style="
+            width: 49%;
+            margin-left: 900px;
+            padding-bottom: 0px;
+            margin-right: 0px;">
+          <a href="#" class="hoverSplashHomePage">
+            <div class="gd-circle-orange-fix">4</div>
+
+            <div class="gd-homepage-4">
+            </div>
+          </a>
+          <p style="
+    width: 300px;">Réalisez votre rêve</p>
+        </div>
       </div>
+      <div class="cell pad_cell" style="width: 750px; margin-left: 15px; margin-top: -550px;">
+        <div class="callout1">
+          <div class="imgGrid" style="background-image: url('global/images/3.jpg');">
+            <div class="gd-eco gd-icon"></div>
+            <a href=""><img class="thumb_post" src="global/images/3.jpg" alt="image of a planet called Pegasi B"></a>
+          </div>
+          <p><a href="" class="lead">The Prologue Project</a></p>
+          <a href="" class="author">Frédéric</a>
+          <div class="progress" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="25 percent"
+            aria-valuemax="100">
+            <span class="progress-meter orange" style="width: 25%">
+              <p class="progress-meter-text">25%</p>
+            </span>
+          </div>
+          <div class="objectif" style="width: 280px; margin-left: 280px;">
+            <div class="gd-tirelire"></div>
+            <div class="textObjectif">5800 € collectés (objectif : 12860 €)</div>
+          </div>
+          <div class="more_details grid-container">
+            <div class="grid-x align-justify">
+              <div class="cell small-4 postGridIconsBottom">
+                <div class="gd-days"></div>
+                <div class="textIconsBottom">J-226</div>
+              </div>
+              <div class="cell small-4 postGridIconsBottom groupsIcon" style="width:100px">
+                <div class="gd-group"></div>
+                <div class="textIconsBottom">29</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
   </div>
 </div>
 
-<article class="grid-container full">
+<article class="grid-container full articleContainer">
   
   <?php require('global/template-components/post_grid.php'); ?>
 
@@ -166,7 +235,9 @@ Réalisez le.</figcaption>
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+    <?php require('global/template-components/footer.php'); ?>
+  </div>
 <!-- Footer -->
 
 <!-- Scripts -->

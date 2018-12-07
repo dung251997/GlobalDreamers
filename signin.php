@@ -19,7 +19,7 @@
 <div id="firstStop"></div>
 
 
-<article class="grid-container full special_bg_white pageSign">
+<article class="grid-container full cguContainer pageSign">
   <div class="container backgroundWhite" style="padding-top: 10px;">
 
     <h1 class="title">Financez votre voyage de rêve </h1>
@@ -100,6 +100,8 @@
     </div>
 
   </div>
+  <div class="bottomCircle"></div>
+
 </article>
 
 
@@ -150,7 +152,9 @@
 <!-- Contenu -->  
 
 <!-- Footer -->
-<?php require('global/template-components/footer.php'); ?>
+<div class="footerAbsolute">
+    <?php require('global/template-components/footer.php'); ?>
+  </div>
 <!-- Footer -->
 
 <!-- Scripts -->
