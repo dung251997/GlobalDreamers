@@ -79,7 +79,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li style="margin-left:-20px;">
                             <a href="#">
                                 <div class="gd-logo animated fadeInDown"></div>
                             </a>
