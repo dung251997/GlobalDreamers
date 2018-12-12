@@ -62,9 +62,9 @@
 
         </div>
 
-        <div class="bottomFooter">
+        <div class="bottomFooter" style="padding-top: 15px;">
             <!-- <hr style="width:1920px; margin-top:0px;"> -->
-            <p style="padding-top : 40px;">GLOBE DREAMERS © Copyright 2018 </p>
+            <p>GLOBE DREAMERS © Copyright 2018 </p>
             <a href="#">Mentions légales </a> <a href="#">Conditions générales d'utilisation </a> <a href="#">Confidentialité
             </a>
             <a href="#">Politique de cookies </a>
