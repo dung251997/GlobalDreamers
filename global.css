@@ -821,7 +821,6 @@ footer .containerFooter {
     /* max-width: 1200px; */
     margin: 0 auto !important;
     padding-top: 150px;
-    padding-bottom: 40px;
     /* padding-right: .9375rem; */
     /* padding-left: .9375rem; */
     width: 100%;
@@ -958,6 +957,7 @@ footer .bottomFooter {
 /*    padding-top: 10px;*/
 /*    padding-bottom: 10px;*/
     background-color: #006483;
+    margin-bottom: 50px;
     
 }
 
