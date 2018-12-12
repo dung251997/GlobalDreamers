@@ -805,7 +805,7 @@ header.headerMobile .flexBoxHeaderMobile .flexBoxItem.logoProfil {
 
 footer {
     position: relative;
-    background: #006483 !important;
+    background: #108b9d !important;
     width: 100%;
 }
 
@@ -821,6 +821,7 @@ footer .containerFooter {
     /* max-width: 1200px; */
     margin: 0 auto !important;
     padding-top: 150px;
+    min-height: 303px;
     /* padding-right: .9375rem; */
     /* padding-left: .9375rem; */
     width: 100%;
@@ -952,12 +953,17 @@ footer .blankFinancement {
 }
 
 footer .bottomFooter {
+    height: 150px;
+    position: absolute;
+    top: 303px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     text-align: center;
     color: white;
 /*    padding-top: 10px;*/
 /*    padding-bottom: 10px;*/
     background-color: #006483;
-    margin-bottom: 50px;
     
 }
 
@@ -6150,6 +6156,7 @@ screen and (max-width: 1023px) {
 
     footer .containerFooter {
         padding-top: 50px;
+        min-height: 303px;
     }
 
     footer .flexBoxFooter .collumnFooterC5 .titleSection .gd-footer-arrow-bottom {
