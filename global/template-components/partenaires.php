@@ -109,18 +109,9 @@
                 </div>
             </div>
         </div>
+<!--
 <hr>
         <div class="commitMent">
-<!--
-            <div class="flexElement">
-                <i class="fas fa-truck fa-2x mainColor"></i>
-                <div class="flexText">
-                    <p class="bold">Expédition rapide</p>
-                    <p>On prépare votre colis en 24h</p>
-                </div>
-                
-            </div>
--->
            
             <div class="flexElement">
                 <i class="fas fa-smile fa-2x mainColor"></i>
@@ -147,6 +138,7 @@
                 
             </div>
         </div>
+-->
 
 
         <div class="bottomCircle"></div>

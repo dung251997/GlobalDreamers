@@ -12,7 +12,7 @@
                         <div class="titleSection linkFooter">
                             <div class="gd-footer-arrow-bottom"></div>
                         </div>
-                        <ul class="subMenuFooter">
+                        <ul class="subMenuFooter1">
                             <li><a href="#">Nos valeurs</a></li>
                             <li><a href="#">Notre équipe</a></li>
                             <li><a href="#">Nous rendre visite</a></li>
@@ -25,7 +25,7 @@
                         <div class="gd-footer-arrow-bottom"></div>
                     </div>
 
-                    <ul class="subMenuFooter">
+                    <ul class="subMenuFooter1">
                         <li><a href="#">Financer un projet</a></li>
                         <li><a href="#">Crowndfunding</a></li>
                         <li><a href="#">Offre entreprise</a></li>
@@ -37,7 +37,7 @@
                         <div class="gd-footer-arrow-bottom"></div>
                     </div>
 
-                    <ul class="subMenuFooter">
+                    <ul class="subMenuFooter1">
                         <li><a href="#">Blog Dreamers </a></li>
                         <li><a href="#">Conseils du gouvernement aux voyageurs</a></li>
                         <li><a href="#">Questions fréquentes</a></li>
@@ -62,12 +62,17 @@
 
         </div>
 
-        <div class="bottomFooter" style="padding-top: 15px;">
+        <div class="bottomFooter">
             <!-- <hr style="width:1920px; margin-top:0px;"> -->
-            <p>GLOBE DREAMERS © Copyright 2018 </p>
-            <a href="#">Mentions légales </a> <a href="#">Conditions générales d'utilisation </a> <a href="#">Confidentialité
-            </a>
+            <a href="#">Mentions légales </a>
+            <a href="#">Conditions générales d'utilisation </a>
+<!--            <p>GLOBE DREAMERS © Copyright 2018 </p>-->
+            <a>GLOBE DREAMERS © Copyright 2018 </a>
+            
+<!--
+            <a href="#">Confidentialité</a>
             <a href="#">Politique de cookies </a>
+-->
         </div>
     </div>
 </footer>
