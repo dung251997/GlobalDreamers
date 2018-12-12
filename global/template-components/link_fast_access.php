@@ -46,6 +46,7 @@ $urlLink = "http://127.0.0.1/Globedreamers/html-v2/";
 
 </div>
 
+<!--
 <div style="position:fixed; left:10px; bottom:10px; z-index: 9999999;">
 	<p><button class="button" data-open="exampleModal1">Naviguer dans le projet</button></p>
-</div>
+</div>-->
