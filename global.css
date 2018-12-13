@@ -392,7 +392,8 @@ header .lastLiHeaderRight {
     }
 
     header .subMenu .containerSubMenu {
-        padding-right: 15px;
+        /* padding-right: 15px; */
+        left: 50% !important;
     }
 }
 
@@ -6664,7 +6665,7 @@ screen and (max-width: 1023px) {
 }
 .top-bar-right{
     position: absolute;
-    right: 200px;
+    right: 5%;
     top: 0%;
 }
 .gd-circle-orange-fix{

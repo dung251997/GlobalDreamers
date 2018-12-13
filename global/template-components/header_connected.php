@@ -1,15 +1,18 @@
 <head>
     <style>
-        .menuLeft{
+        .menuLeft {
             text-align: right;
         }
-        .menuRight{
+
+        .menuRight {
             text-align: left;
         }
-        .containerLeft{
+
+        .containerLeft {
             left: 79%;
         }
-        .containerRight{
+
+        .containerRight {
             left: 38%;
         }
     </style>
@@ -133,4 +136,5 @@
                 </li>
             </ul>
         </div>
+    </div>
 </header>
