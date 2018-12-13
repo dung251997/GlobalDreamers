@@ -12,9 +12,6 @@
         .containerRight{
             left: 38%;
         }
-        .li-menu2{
-    margin-left: 10px;
-}
     </style>
 </head>
 
@@ -95,7 +92,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li id="li-menu2">
+                        <li>
                             <a href="#">
                                 <div class="gd-logo animated fadeInDown"></div>
                             </a>
@@ -136,5 +133,4 @@
                 </li>
             </ul>
         </div>
-    </div>
 </header>
