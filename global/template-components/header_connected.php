@@ -1,19 +1,22 @@
 <head>
     <style>
         .menuLeft {
-            text-align: right;
+            /* text-align: right; */
         }
 
         .menuRight {
-            text-align: left;
+            /* text-align: left; */
+        }
+        .menuCenter{
+            text-align: center;
         }
 
         .containerLeft {
-            left: 79%;
+            /* left: 79%; */
         }
 
         .containerRight {
-            left: 38%;
+            /* left: 38%; */
         }
     </style>
 </head>
@@ -84,7 +87,7 @@
             <ul class="dropDown menu centering" data-dropdown-menu>
                 <div class="flexBoxHeader verticalAlign">
                     <div class="verticalAlignItem blockMenu">
-                        <li class="subMenuLink animated fadeInLeft menuLeft">
+                        <li class="subMenuLink animated fadeInLeft menuCenter">
                             <a href="#" class="lienMenu">Explorer</a>
                             <div class="subMenu subMenu1">
                                 <div class="containerSubMenu containerLeft">
@@ -100,7 +103,7 @@
                                 <div class="gd-logo animated fadeInDown"></div>
                             </a>
                         </li>
-                        <li class="subMenuLink animated fadeInRight menuRight">
+                        <li class="subMenuLink animated fadeInRight menuCenter">
                             <a href="#" class="lienMenu ">Soutenir un projet</a>
                             <div class="subMenu subMenu2">
                                 <div class="containerSubMenu containerRight">

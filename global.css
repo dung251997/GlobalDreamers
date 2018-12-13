@@ -6665,7 +6665,7 @@ screen and (max-width: 1023px) {
 }
 .top-bar-right{
     position: absolute;
-    right: 5%;
+    right: 2%;
     top: 0%;
 }
 .gd-circle-orange-fix{
@@ -6728,6 +6728,9 @@ screen and (max-width: 1023px) {
     box-shadow: 6px 0 15px -4px rgba(0, 0, 0, 0.25), -7px 0 15px -4px rgba(0, 0, 0,  0.22);
 }
 
+#example-animated-menu > ul > div > div > li{
+    min-width: 164px;
+}
 
 
 
