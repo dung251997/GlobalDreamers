@@ -4764,8 +4764,8 @@ nav.searchExplorer .containerInput input:focus {
 
 div.gd-logo {
     margin-top: -25px;
-    margin-left: 51px;
-    margin-right: 68px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #popinSignIn .gd-logo {
